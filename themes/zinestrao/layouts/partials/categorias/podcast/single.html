@@ -1,0 +1,80 @@
+<main id="content" class="white-background" role="main">
+  <div class="container">
+    <div class="row">
+      <div class="podcast-head col sm-12 col-md-12">
+      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="background-image">
+        <h2 class="single-title no-bottom">{{ .Title }}</h2>
+        <p class="post-meta"><span>{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Param "author" }}</a></span></p>
+
+        <p>{{ .Params.Summary }}</p>
+        <img src="{{ .Params.imagePOST }}" width="100%" alt="{{ .Title }}">
+
+      </div>
+    </div>
+    </div>
+    <div class="margin-4"></div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        {{ .Content }}
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <div class="sep"></div>
+        <div class="fb-like" data-href="{{ .Site.Params.Facebook }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+        <div class="sep"></div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>Compartilhe nas suas redes sociais</h5>
+            <p class="social-share no-bottom">
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ .RelPermalink }}" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/home?status={{ .RelPermalink }}" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://plus.google.com/share?url={{ .RelPermalink }}" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
+
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="tags"><strong class="padding-bottom">Tags:</strong> {{ delimit .Params.tags ", " " e " }}</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="sep margin-2"></div>
+
+        <h5>Outros podcasts</h5>
+        <div class="owl-carousel owl-thumbs-2">
+          {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
+          <div class="thumb dark-overlay">
+            <div class="photo">
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}" alt="Imagem de destaque do post {{ .Title }}">
+                <span class="info"><span class="big-excerpt">{{ .Title }}</span></span>
+              </a>
+            </div>
+          </div>
+          {{ end }}
+
+        </div>
+        <div class="sep margin-4"></div>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_shortname = 'zinedoseextra';
+          var disqus_developer = 1;
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <div class="clear"></div>
+
+        <div class="margin-6"></div>
+      </div>
+    </div>
+  </div>
+</main>

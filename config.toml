@@ -1,0 +1,27 @@
+baseURL = "https://blog.doseextra"
+DefaultContentLanguage = "pt-br"
+languageCode = "pt-br"
+title = "Conteúdo livre para todos! Web, design e multimídia!"
+theme = "zinestrao"
+
+[params]
+  siteName = "Dose Extra Blog"
+  description = "Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha."
+  twitter = "@sitedoseextra"
+  TwitterURL = "//twitter.com/sitedoseextra"
+  facebook = "//facebook.com/doseextra"
+  email = "blog@doseextra.com"
+  telegram = "//t.me/joinchat/AAAAAAfihmNSCdp0GZ1a_g"
+  messenger = "//www.messenger.com/t/1625905931054179"
+  instagram = "//instagram.com/doseextra"
+  gplus = ""
+
+[permalinks]
+  podcast = "/:filename"
+  revista = "/:filename"
+  paginas = "/:filename"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "author"

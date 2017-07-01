@@ -1,0 +1,62 @@
+{{ $.Scratch.Add "category" true }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>{{ partial "global/header/head.html" . }}</head>
+<body>
+{{ partial "global/header/header.html" . }}
+
+<main id="content" role="main">
+  <div class="container container-masonry">
+    <div class="inner">
+      <div class="row">
+        {{ if $.Scratch.Get "category" }}
+        <div class="col-md-12 centralizado">
+          <h4><small>Postagens da categoria </small> {{ .Title }}:</h4>
+          <div class="margin-4"></div>
+        </div>
+        {{else}}
+        <div class="col-md-12 centralizado">
+          <h4><small>Postagens do autor </small> {{ .Title }}:</h4>
+          <div class="margin-4"></div>
+        </div>
+        {{end}}
+      <div id="ajax-posts">
+
+        {{ range (.Paginator 10).Pages }}
+        <div class="box col-sm-6">
+          <div class="post-box horizontal clearfix">
+            <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.image }}" alt="{{ .Title }}"></a>
+            <div class="extra-info">
+              <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Param "author" }}</a></p>
+              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div class="margin-6"></div>
+    </div>
+    <div class="box col-sm-12 text-center">
+		<div class="margin-2"></div>
+    {{ if .Paginator.HasPrev }}
+    <a class="btn btn-default" href="{{ .Paginator.Prev.URL }}">
+       < Recentes</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a class="btn btn-default" href="{{ .Paginator.Next.URL }}">
+        Antigos >
+    </a>
+    {{ end }}
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "global/footer/footer.html" . }}
+
+{{ partial "global/footer/scripts.html" . }}
+
+</script>

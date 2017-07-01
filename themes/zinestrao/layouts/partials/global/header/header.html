@@ -1,0 +1,19 @@
+<header id="top" class="navbar" role="banner">
+		<div class="container">
+			<div class="inner">
+
+				<div class="site-title">
+					<h1><a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL}}/img/site/logod.png" alt="{{ .Site.Title }}"></a></h1>
+					<a href="#site-menu" class="site-menu-toggle">
+						<span class="sr-only">Navegação</span>
+						<em class="first"></em><em class="middle"></em><em class="last"></em>
+					</a>
+				</div>
+
+				<div id="site-menu">
+					{{ partial "global/header/menu.html" . }}
+				</div>
+
+			</div>
+		</div>
+	</header>

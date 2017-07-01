@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.SiteName}}{{ else }}{{ .Title }} - {{ .Site.Params.SiteName }}{{ end}}</title>
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "excerpt"}}{{ .Param "excerpt" }}{{else}}{{ .Summary }}{{end}}{{ end }}">
+<base href="{{ .Site.BaseURL }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+{{ end }}
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="canonical" href="{{ .Permalink }}" />
+<meta property="og:locale" content="{{ .Site.Params.languageCode }}" />
+{{ if .IsHome }}<meta property="og:type" content="website" />{{ else }}<meta property="og:type" content="article" />{{end}}
+{{ with .Title }}<meta property="og:title" content="{{ . }} | Dose Extra Blog" />{{ end }}
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "excerpt"}}{{ .Param "excerpt" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Params.SiteName }}" />
+<meta property="og:image" content="{{ with .Params.ImagePost  }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
+<meta property="article:author" content="{{ .Params.AuthorFacebook }}">
+<meta property="article:tag" content="">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "excerpt"}}{{ .Param "excerpt" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.SiteName}}{{ else }}{{ .Title }} - {{ .Site.Params.SiteName }}{{ end}}" />
+<meta name="twitter:site" content="{{ .Site.Params.Twitter }}" />
+<meta name="twitter:image" content="{{ with .Params.ImagePost }}{{ . }}{{ else }}images/missing-img.png{{ end }}">
+{{ .Hugo.Generator }}
+{{ partial "global/header/favicon.html" . }}
+{{ partial "global/header/estilos.html" . }}

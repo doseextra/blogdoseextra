@@ -1,0 +1,109 @@
+<main id="content" class="white-background" role="main">
+    <div class="container">
+        <div class="row">
+            <div class="podcast-head col sm-12 col-md-12">
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="background-image">
+                    <h2 class="single-title no-bottom">{{ .Title}}</h2>
+                    <p class="post-meta"><span>{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}"> {{ .Params.author }}</a></span></p>
+                    <p>{{ .Params.Description }}</p>
+                    <img src="{{ .Params.imagePOST }}" width="100%" alt="{{ .Title }}">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class=" margin-2"></div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 conteudo">
+                {{ .Content }}
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="sep"></div>
+                <div class="fb-like" data-href="{{ .Site.Params.Facebook }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                <div class="sep"></div>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Compartilhe nas suas redes sociais</h5>
+                        <p class="social-share no-bottom">
+                            <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="//twitter.com/home?status={{ .Permalink }}" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="//plus.google.com/share?url={{ .Permalink }}" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a href="mailto:{{ .Site.Params.Email }}" class="social-link" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="tags"><strong class="padding-bottom">Tags:</strong>{{ delimit .Params.tags ", " " e " }}</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <div class="sep margin-2"></div>
+                <p>
+                    <a href="#" class="display-inline-block"><img src="{{ .Site.BaseURL }}{{ .Params.authorImg }}" width="96" height="96" class="round" alt="{{ .Params.author }}" - {{ .Site.Title }}></a>
+                </p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>{{ .Params.author }}</h5>
+                        <p>{{ .Params.authorDescription }}</p>
+                        <p class="social-share">
+                            <a href="{{ .Params.authorFacebook }}" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="{{ .Params.authorLinkedin }}" class="social-link" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="{{ .Params.authorGplus }}" class="social-link"><i class="fa fa-google-plus"></i></a>
+                            <a href="{{ .Params.authorTwitter }}" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="{{ .Params.authorInstagram }}" class="social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Mais publicações do autor&hellip;</h5>
+                        <div class="owl-carousel owl-thumbs-3">
+                            {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
+                            <div class="thumb">
+                                <div class="photo">
+                                    <a href="{{ .RelPermalink }}">
+                                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                                        <span class="info"><em class="arrow-right centered"></em></span>
+                                    </a>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="sep margin-2"></div>
+                <h5>Você pode gostar:</h5>
+                <div class="owl-carousel owl-thumbs-2">
+                    {{ range first 4 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
+                    <div class="thumb dark-overlay">
+                        <div class="photo">
+                            <a href="{{ .RelPermalink }}">
+                                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                                <span class="info"><span class="big-excerpt">{{ .Title }}</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                </div>
+                <div class="sep margin-2"></div>
+
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'zinedoseextra';
+                    var disqus_developer = 0;
+                    (function() {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Por favor habilite o JavaScript em <a href="https://disqus.com/?ref_noscript" rel="nofollow">Comentários Disqus.</a></noscript>
+                <div class="margin-6"></div>
+            </div>
+        </div>
+    </div>
+</main>

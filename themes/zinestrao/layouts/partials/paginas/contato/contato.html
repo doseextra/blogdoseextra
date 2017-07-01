@@ -1,0 +1,74 @@
+<main id="content" role="main">
+  <div class="container container-boxes">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="box white-bg" style="background-image:url(img/site/contato.jpeg)">
+          <h1>Fale com a Dose</h1>
+          <p>Mande uma mensagem que nós vamos responder o quanto antes.</p>
+          <p class="small contact-address-info">
+            <i class="fa fa-map-marker"></i>
+            Rua José Rossini, 751<br>
+            Bento Gonçalves, RS
+          </p>
+          <p class="small contact-address-info">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:{{ .Site.Params.Email }}" target="_blank">{{ .Site.Params.Email }}</a><br>
+          </p>
+          <p class="small contact-address-info">
+            <i class="fa fa-facebook"></i>
+            <a href="{{ .Site.Params.Messenger }}" target="_blank">Chat Dose Extra</a><br>
+          </p>
+          <p class="small contact-address-info">
+            <i class="fa fa-telegram"></i>
+            <a href="{{ .Site.Params.Telegram}}" target="_blank">Blog Dose Extra</a><br>
+          </p>
+        </div>
+        <div class="box white-bg text-center">
+          <h5>Nossas redes sociais</h5>
+          <p>Siga a Dose Extra nas redes sociais e não perca nenhuma postagem</p>
+          <p class="social-share no-bottom">
+            <a href="{{ .Site.Params.Facebook }}" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="{{ .Site.Params.TwitterURL }}" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="{{ .Site.Params.Gplus }}" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="{{ .Site.Params.Instagram }}" class="social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:{{ .Site.Params.Email }}" class="social-link" target="_blank"><i class="fa fa-envelope-o"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="box white-bg text-center">
+          <div class="col-md-6">
+            <p class="twitter-follow">
+              <a href="{{ .Site.Params.Messenger }}" class="username" target="_blank"><i class="fa fa-facebook"></i>/doseextra</a>
+              <a href="{{ .Site.Params.Facebook }}" class="button" target="_blank">Seguir</a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h5 class="twitter-follow-text no-bottom">Cultura, produção multimídia e a vida de uma produtora da Serra Gaúcha.</h5>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="box white-bg">
+          <h5>Enviar mensagem</h5>
+          <div class="sep red"></div>
+          <div role="form" class="wpcf7">
+            <div class="screen-reader-response"></div>
+            <form action="//formspree.io/contato@doseextra.com" method="post" novalidate="novalidate">
+                <label for="name" class="sr-only">Name</label><br/>
+                <input type="text" class="underline" name="name" id="name" placeholder="Seu nome..." required><br/>
+                <label for="email" class="sr-only">Email</label><br/>
+                <input type="email" class="underline" name="email" id="email" placeholder="Seu e-mail..." required><br/>
+                <label for="message" class="sr-only">Message</label><br/>
+                <textarea class="underline" name="message" id="message" cols="30" rows="4" placeholder="Sua mensagem..." required></textarea><br/>
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

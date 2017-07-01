@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>{{ partial "global/header/head.html" . }}</head>
+<body>
+{{ partial "global/header/header.html" . }}
+{{ block "main" . }}
+{{ end }}
+{{ partial "global/footer/footer.html" . }}
+
+{{ partial "global/footer/scripts.html" . }}
+{{ if .IsHome }} {{ else }} {{ if .IsPage }}
+<script>
+		jQuery(".owl-carousel.owl-slider").owlCarousel({
+		items   : 1,
+		nav     : true,
+		navText : ['', ''],
+		loop    : true
+	});
+
+    jQuery(".owl-carousel.owl-thumbs-2").owlCarousel({
+      items   : 3,
+      margin  : 30,
+      nav     : true,
+      navText : ['', ''],
+      dots    : false,
+      loop    : false
+    });
+
+    jQuery(".owl-carousel.owl-thumbs-3").owlCarousel({
+      items   : 3,
+      margin  : 30,
+      nav     : false,
+      navText : ['', ''],
+      dots    : false,
+      loop    : false
+    });
+  </script>
+<script>
+  jQuery(".owl-carousel.owl-thumbs-2").owlCarousel({
+    items   : 2,
+    margin  : 30,
+    nav     : true,
+    navText : ['', ''],
+    dots    : false,
+    loop    : false
+  });
+
+  jQuery(".owl-carousel.owl-thumbs-3").owlCarousel({
+    items   : 3,
+    margin  : 30,
+    nav     : false,
+    navText : ['', ''],
+    dots    : false,
+    loop    : false
+  });
+</script>
+<script>
+  jQuery(".owl-carousel.owl-services").owlCarousel({
+    items   : 4,
+    margin  : 30,
+    nav     : false,
+    navText : ['', ''],
+    dots    : true,
+    loop    : true,
+    responsive : {
+      0: {
+        items   : 1
+      },
+      768: {
+        items   : 2
+      },
+      992: {
+        items   : 3
+      }
+    }
+  });
+
+  jQuery(".owl-carousel.owl-testimonials2").owlCarousel({
+    items   : 1,
+    nav     : false,
+    navText : ['', ''],
+    dots    : true,
+    loop    : true
+  });
+  </script>
+  {{ end}} {{ end }}
+</body>
+</html>

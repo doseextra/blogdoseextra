@@ -1,0 +1,47 @@
+{{ define "main" }}
+<main id="content" role="main">
+  <div class="container container-masonry">
+    <div class="inner">
+      <div class="row">
+        <div class="col-md-12 centralizado">
+          {{ .Content }}
+          <div class="margin-4"></div>
+        </div>
+      <div id="ajax-posts">
+
+        {{range .Site.RegularPages }}
+        {{- if eq .Type "post"}}
+        <div class="box col-sm-6">
+          <div class="post-box horizontal clearfix">
+            <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.image }}" alt="{{ .Title }}"></a>
+            <div class="extra-info">
+              <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Param "author" }}</a></p>
+              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="margin-6"></div>
+    </div>
+
+    <div class="box col-sm-12 text-center">
+		<div class="margin-2"></div>
+    {{ if .Paginator.HasPrev }}
+    <a class="btn btn-default" href="{{ .Paginator.Prev.URL }}">
+       < Recentes</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a class="btn btn-default" href="{{ .Paginator.Next.URL }}">
+        Antigos >
+    </a>
+    {{ end }}
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
