@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Régis Tomkiel on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>https://blog.doseextra/author/r%C3%A9gis-tomkiel/</link>
+    <description>Recent content in Régis Tomkiel on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 30 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.doseextra/author/r%C3%A9gis-tomkiel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://blog.doseextra/</link>
+      <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conheça mais sobre o Blog Dose Extra</title>
+      <link>https://blog.doseextra/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/sobre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entre em contato com a  equipe do Blog Dose Extra</title>
+      <link>https://blog.doseextra/contato/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/contato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://blog.doseextra/podcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revista</title>
+      <link>https://blog.doseextra/revista/</link>
+      <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/revista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Todos os posts do Blog Dose Extra</title>
+      <link>https://blog.doseextra/arquivos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/arquivos/</guid>
+      <description>Todos nossos posts Aqui estão todas as postagens do nosso blog, do mais novo ao mais velho.</description>
+    </item>
+    
+  </channel>
+</rss>
