@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>https://blog.doseextra/categories/marketing/</link>
+    <description>Recent content in Marketing on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.doseextra/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Gráfico</title>
+      <link>https://blog.doseextra/design-grafico/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/design-grafico/</guid>
+      <description>Design gráfico é a forma de comunicar ideia ou conceito, usando formas, traços, texturas e cores.
+Toda instituição ou produto tem necessidades de comunicação. Dentro delas, existe a identidade visual.
+Identidade Visual A imagem de uma instituição se constrói a partir de seu nome, da qualidade de seu produto e seu atendimento. Isso reflete a sua relação com o mercado, clientes, fornecedores, funcionários e parceiros. Deve revelar o posicionamento no cenário econômico, ambiental, cultural, histórico, político e social.</description>
+    </item>
+    
+    <item>
+      <title>Mídias Digitais Focadas Em Resultados</title>
+      <link>https://blog.doseextra/midias-digitais-focadas-em-resultados/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.doseextra/midias-digitais-focadas-em-resultados/</guid>
+      <description>É muito importante compreender a importância das mídias digitais, suas características e principalmente, seus benefícios. O meio é democrático e todos podem colher os frutos, bastando empenho e entendimento de sua importância na fidelização e conquista de clientes.
+Com bom acompanhamento profissional, sua empresa pode obter os melhores resultados, fazendo e sendo a diferença no mercado.
+Desenvolvimento de Sites e SEO A Dose Extra garante as melhores posições para atingir o público-alvo.</description>
+    </item>
+    
+  </channel>
+</rss>
