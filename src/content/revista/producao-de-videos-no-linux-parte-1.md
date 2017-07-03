@@ -18,6 +18,7 @@ date: 2017-05-01
 categories:
   - Artigo
   - Tutoriais
+  - Video
 tags:
   - edição de vídeo
   - filmmaker
