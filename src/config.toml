@@ -1,4 +1,4 @@
-baseURL = "https://blog.doseextra.com"
+baseURL = "http://blog.doseextra.com"
 DefaultContentLanguage = "pt-br"
 languageCode = "pt-br"
 title = "Conteúdo livre para todos! Web, design e multimídia!"
