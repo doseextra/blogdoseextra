@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dose Extra on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>http://blog.doseextra.com/tags/dose-extra/</link>
+    <description>Recent content in Dose Extra on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.doseextra.com/tags/dose-extra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Gráfico</title>
+      <link>http://blog.doseextra.com/design-grafico/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/design-grafico/</guid>
+      <description>Design gráfico é a forma de comunicar ideia ou conceito, usando formas, traços, texturas e cores.
+Toda instituição ou produto tem necessidades de comunicação. Dentro delas, existe a identidade visual.
+Identidade Visual A imagem de uma instituição se constrói a partir de seu nome, da qualidade de seu produto e seu atendimento. Isso reflete a sua relação com o mercado, clientes, fornecedores, funcionários e parceiros. Deve revelar o posicionamento no cenário econômico, ambiental, cultural, histórico, político e social.</description>
+    </item>
+    
+    <item>
+      <title>Você Está se Comunicando?</title>
+      <link>http://blog.doseextra.com/voce-esta-se-comunicando/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/voce-esta-se-comunicando/</guid>
+      <description>Texto escrito por Laura Kirchhof e originalmente postado no antigo site Dose Extra.
+Com a evolução dos meios de comunicação social, atualmente as informações se disseminam de maneira muito rápida. O processo da globalização em conjunto ao capitalismo, fez com que os veículos de comunicação ficassem acessíveis a maior parte da população e o que parecia impossível, com a tecnologia e a expansão da internet, tornou-se realidade. Hoje vivemos num mundo totalmente conectado.</description>
+    </item>
+    
+  </channel>
+</rss>
