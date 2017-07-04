@@ -2,31 +2,31 @@
 <html lang="pt-br" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>O Blog agora é estático - Dose Extra Blog</title>
-<meta name="description" content="Sempre defendi o Wordpress e o uso de um CMS amigável, pois não é todo mundo que tem conhecimento suficiente para se aventurar em alternativas mais complexas. Eu mesmo, uso o Wordpress em vários projetos importantes e ainda acredito que ele é uma das ferramentas mais completas da atualidade, mas&hellip;
-Desempenho Não é novidade para ninguém que o Wordpress é um pequeno monstrinho em consumo de recursos, principalmente quando mal configurado.">
+<title>Começando com o Hugo - Dose Extra Blog</title>
+<meta name="description" content="Nosso primeiro site com o Hugo O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.
+Instalação Iremos abordar a instalação em sistemas GNU/Linux, mais precisamente, usando pacotes Snaps no Gentoo Linux. É um método muito fácil e que ajuda a manter o Hugo sempre atualizado e funcionando sem qualquer configuração adicional.">
 <base href="http://blog.doseextra.com">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<link rel="canonical" href="http://blog.doseextra.com/o-site-agora-e-estatico/" />
+<link rel="canonical" href="http://blog.doseextra.com/comecando-com-o-hugo/" />
 <meta property="og:locale" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="O Blog agora é estático | Dose Extra Blog" />
-<meta property="og:description" content="Sempre defendi o Wordpress e o uso de um CMS amigável, pois não é todo mundo que tem conhecimento suficiente para se aventurar em alternativas mais complexas. Eu mesmo, uso o Wordpress em vários projetos importantes e ainda acredito que ele é uma das ferramentas mais completas da atualidade, mas&hellip;
-Desempenho Não é novidade para ninguém que o Wordpress é um pequeno monstrinho em consumo de recursos, principalmente quando mal configurado." />
-<meta property="og:url" content="http://blog.doseextra.com/o-site-agora-e-estatico/" />
+<meta property="og:title" content="Começando com o Hugo | Dose Extra Blog" />
+<meta property="og:description" content="Nosso primeiro site com o Hugo O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.
+Instalação Iremos abordar a instalação em sistemas GNU/Linux, mais precisamente, usando pacotes Snaps no Gentoo Linux. É um método muito fácil e que ajuda a manter o Hugo sempre atualizado e funcionando sem qualquer configuração adicional." />
+<meta property="og:url" content="http://blog.doseextra.com/comecando-com-o-hugo/" />
 <meta property="og:site_name" content="Dose Extra Blog" />
-<meta property="og:image" content="//i.imgur.com/pa7Q7DJ.png">
+<meta property="og:image" content="//i.imgur.com/BGbjxrU.jpg">
 <meta property="article:author" content="//www.facebook.com/registomkiel">
 <meta property="article:tag" content="">
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Sempre defendi o Wordpress e o uso de um CMS amigável, pois não é todo mundo que tem conhecimento suficiente para se aventurar em alternativas mais complexas. Eu mesmo, uso o Wordpress em vários projetos importantes e ainda acredito que ele é uma das ferramentas mais completas da atualidade, mas&hellip;
-Desempenho Não é novidade para ninguém que o Wordpress é um pequeno monstrinho em consumo de recursos, principalmente quando mal configurado." />
-<meta name="twitter:title" content="O Blog agora é estático - Dose Extra Blog" />
+<meta name="twitter:description" content="Nosso primeiro site com o Hugo O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.
+Instalação Iremos abordar a instalação em sistemas GNU/Linux, mais precisamente, usando pacotes Snaps no Gentoo Linux. É um método muito fácil e que ajuda a manter o Hugo sempre atualizado e funcionando sem qualquer configuração adicional." />
+<meta name="twitter:title" content="Começando com o Hugo - Dose Extra Blog" />
 <meta name="twitter:site" content="@sitedoseextra" />
-<meta name="twitter:image" content="//i.imgur.com/pa7Q7DJ.png">
+<meta name="twitter:image" content="//i.imgur.com/BGbjxrU.jpg">
 <meta name="generator" content="Hugo 0.24.1" />
 <link rel="shortcut icon" href="http://blog.doseextra.com/img/site/favicon.ico">
 <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic%7CRoboto:400,700%7CDroid+Serif" rel="stylesheet" type="text/css">
@@ -124,10 +124,10 @@ Desempenho Não é novidade para ninguém que o Wordpress é um pequeno monstrin
         <div class="row">
             <div class="podcast-head col sm-12 col-md-12">
                 <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="background-image">
-                    <h2 class="single-title no-bottom">O Blog agora é estático</h2>
-                    <p class="post-meta"><span>30 de Jun de 2017 por <a href="/author/regis-tomkiel"> Regis Tomkiel</a></span></p>
-                    <p>Migramos do Wordpress! Agora o blog é gerado com o Hugo e GitHub!</p>
-                    <img src="//i.imgur.com/pa7Q7DJ.png" width="100%" alt="O Blog agora é estático">
+                    <h2 class="single-title no-bottom">Começando com o Hugo</h2>
+                    <p class="post-meta"><span>1 de Jul de 2017 por <a href="/author/regis-tomkiel"> Regis Tomkiel</a></span></p>
+                    <p>Saiba como instalar e começar um projeto no gerenciador de sites Hugo. Gere sites estáticos facilmente.</p>
+                    <img src="//i.imgur.com/BGbjxrU.jpg" width="100%" alt="Começando com o Hugo">
                     <br>
                 </div>
             </div>
@@ -138,39 +138,62 @@ Desempenho Não é novidade para ninguém que o Wordpress é um pequeno monstrin
             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 conteudo">
                 
 
-<p>Sempre defendi o Wordpress e o uso de um CMS amigável, pois não é todo mundo que tem conhecimento suficiente para se aventurar em alternativas mais complexas. Eu mesmo, uso o Wordpress em vários projetos importantes e ainda acredito que ele é uma das ferramentas mais completas da atualidade, mas&hellip;</p>
+<h3 id="nosso-primeiro-site-com-o-hugo">Nosso primeiro site com o Hugo</h3>
 
-<h3 id="desempenho">Desempenho</h3>
+<p>O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.</p>
 
-<p>Não é novidade para ninguém que o Wordpress é um pequeno monstrinho em consumo de recursos, principalmente quando mal configurado. Para ter o CMS funcionando, precisamos de um servidor Apache ou Ngnix, PHP e MySQL. Tudo isso rodando junto pode ser o pesadelo de muita empresa de hospedagem.
-Atualmente contamos com servidores da Digital Ocean para nossos sites e para alguns clientes. Mesmo com configurações bem melhores que a da grande maioria das hospedagens brasileiras, não é difícil gerar um gargalo, desde que não se faça as configurações adequadas. Uma VPS de US$10,00 não é o recomendado para ter todos os serviços em conjunto.
-Grande parte das configurações que realizei, dizem respeito ao uso de cache, automatização de scripts e o uso de CDNs. O site que é acessado em seu navegador, é um “snapshot” do site original, quero dizer, é uma versão estática do conteúdo e não algo em tempo real. Meio que o site já é todo em HTML, não é mesmo?</p>
+<h3 id="instalação">Instalação</h3>
 
-<h3 id="mudanças">Mudanças</h3>
+<p>Iremos abordar a instalação em sistemas GNU/Linux, mais precisamente, usando pacotes Snaps no Gentoo Linux. É um método muito fácil e que ajuda a manter o Hugo sempre atualizado e funcionando sem qualquer configuração adicional.<br />
+Para saber como instalar snaps no Gentoo, <a href="#" title="como instalar snaps no Gentoo">acesse aqui</a>.<br />
+<strong>Bom, vamos ao processo!</strong></p>
 
-<p>Após muito estudo sobre melhorias em nossos serviços, constatamos que não é possível sair simplesmente gastando mais dinheiro, é preciso otimizar o que já temos. Assim sendo, decidimos, dentre outras coisas, migrar um dos servidores para FreeBSD e realizar configurações de desempenho nele. Todos nossos servidores são Linux e explicarei melhor em outro post os motivos da mudança.
-Aproveitando o ocorrido, me propus a estudar formas de melhorar nossos sites e também, de quebra, estudar algo inteiramente novo. Umas das primeiras opções, foi utilizar o Hugo para gerar as páginas estáticas ainda localmente e diminuindo a necessidade de banco de dados, por exemplo.</p>
+<h4 id="1-acessando-o-terminal">1° - Acessando o terminal</h4>
 
-<h3 id="hugo">Hugo</h3>
+<p>Para realizar a instalação, abra o aplicativo de terminal, neste caso estou usando o Gnome Shell e o programa padrão, o gnome-terminal ou simplesmente “terminal”.</p>
 
-<p>Conheci o <a href="//gohugo.io" target="_blank">Hugo</a> através do portal <a href="//tableless.com.br/site-tableless-estatico/" target="_blank">Tablesses</a>, que também fez a mudança no site, abandonando o Wordpress e a necessidade de vários servidores para manter a estrutura. Com base no depoimento do <a href="//tableless.com.br/author/diego-eis/" target="_blank">Diego Eis</a>, fiquei tentado à conhecer melhor este tal de Hugo.
-Ele não é um CMS, não precisa de MySQL, PHP e não possui algumas “features” como editor gráfico e login de usuários. Na verdade, ele é projetado para ser usado localmente, em conjunto com um editor de texto qualquer. Por esses motivos, ele me pareceu bastante estranho no começo&hellip;
-Me surpreendi com a facilidade e simplicidade. O Hugo é escrito em GO e sua sintaxe é praticamente inglês falado, de tão simples. Em uma semana já tinha um site totalmente migrado para a plataforma.
-Futuramente quero escrever artigos e tutoriais de uso, também quero demonstrar a migração de sites para a plataforma.</p>
+<p>Com ele aberto, digite o seguinte comando:<br />
+<code>sudo snap install hugo</code></p>
 
-<h3 id="mais-open-source">Mais Open Source</h3>
+<p>Aguarde o término da instalação e verifique a versão do Hugo:<br />
+<code>hugo -v</code></p>
 
-<p>Se antes, manter um site em Wordpress no GitHub era praticamente impossível, com o Hugo não. Nossos projetos estão migrando para lá e ficarão disponíveis para uso e estudo. É muito fácil manter um site por lá&hellip;</p>
+<p>Com a instalação bem sucedida, é hora de começar o site.</p>
 
-<h3 id="agora-nosso-blog-é-aberto">Agora nosso blog é aberto</h3>
+<h4 id="2-criando-seu-primeiro-site">2° - Criando seu primeiro site</h4>
 
-<p>Você pode nos ajudar e se tornar um autor, já que agora é muito mais fácil submeter um artigo. Basta saber utilizar minimamente o GitHub e ter vontade de compartilhar conhecimento. :)
-Sem o uso de CMS, não é necessário login e todo o gerenciamento de conteúdo é pelo repositório no GitHub por <i>pull requests</i>.</p>
+<p>Crie uma pasta chamada Sites na home:<br />
+<code>mkdir $HOME/Sites</code></p>
 
-<h3 id="para-o-futuro">Para o futuro</h3>
+<p>Acesse a pasta:<br />
+<code>cd $HOME/Sites</code></p>
 
-<p>Estamos cada vez mais focados em criar conteúdo relevante e com isso, planejamos artigos e tutoriais para os próximos dias, incluindo, mais matérias sobre desenvolvimento de sites, Wordpress e Hugo.
-<blockquote>Criar e compartilhar conteúdo é o que nos move!</blockquote></p>
+<p>Crie o primeiro projeto:
+<code>hugo new site meu-primeiro-projeto</code></p>
+
+<p>Abra a pasta $HOME/Sites em seu editor de texto preferido, como o Gedit ou Atom, por exemplo.</p>
+
+<p>Neste primeiro momento, vamos realizar só as configurações necessárias para o site ser minimamente acessado. Portanto, o próximo passo é procurar e baixar um template para ser utilizado. Acesse <a href="#" title="baixar o tema crap">este link</a> ou utilize o git.<br />
+<code>git clone https://github.com/thomasheller/crab.git</code></p>
+
+<p>Para o tema funcionar, mova a pasta “crab” para o diretório <code>$HOME/Sites/meu-primeiro-projeto/themes/</code>, assim:<br />
+<code>$ mv crap $HOME/Sites/meu-primeiro-projeto/themes/</code></p>
+
+<p>Para testar o site, acesse a pasta raiz de seu projeto:<br />
+<code>$ cd $HOME/Sites/meu-primeiro-projeto</code></p>
+
+<p>Com o editor de texto, abra o arquivo config.toml e digite a seguinte linha:<br />
+<code>theme = “crab”</code></p>
+
+<p>Novamente no terminal, digite e aperte o enter:<br />
+<code>$ hugo server</code></p>
+
+<p>Abra o navegador e acesse o endereço <a href="http://localhos:1313">http://localhos:1313</a> e seu site vai estar funcionando e nem precisa de Apache instalado na máquina.</p>
+
+<h4 id="3-personalizando-e-configurando">3° - Personalizando e configurando</h4>
+
+<p>Agora, com seu editor de código preferido, abra o arquivo <em>config.toml</em>. É nele que as principais configurações serão feitas, como a definição da URL base do site, definição do tema escolhido, título, dentre muitas outras.<br />
+Para começar é importante ler a documentação do Hugo e seguir a sequência de artigos do blog. O próximo será sobre as principais configurações do site, não perca.</p>
 
             </div>
             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
@@ -183,14 +206,14 @@ Sem o uso de CMS, não é necessário login e todo o gerenciamento de conteúdo 
                     <div class="col-sm-6">
                         <h5>Compartilhe nas suas redes sociais</h5>
                         <p class="social-share no-bottom">
-                            <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.doseextra.com%2fo-site-agora-e-estatico%2f" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="//twitter.com/home?status=http%3a%2f%2fblog.doseextra.com%2fo-site-agora-e-estatico%2f" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="//plus.google.com/share?url=http%3a%2f%2fblog.doseextra.com%2fo-site-agora-e-estatico%2f" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.doseextra.com%2fcomecando-com-o-hugo%2f" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="//twitter.com/home?status=http%3a%2f%2fblog.doseextra.com%2fcomecando-com-o-hugo%2f" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="//plus.google.com/share?url=http%3a%2f%2fblog.doseextra.com%2fcomecando-com-o-hugo%2f" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
                             <a href="mailto:blog@doseextra.com" class="social-link" target="_blank"><i class="fa fa-envelope"></i></a>
                         </p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="tags"><strong class="padding-bottom">Tags:</strong>Html, Hugo, GO, Wordpress, Web, Web estática e Blog</p>
+                        <p class="tags"><strong class="padding-bottom">Tags:</strong>css, html, hugo, web, html5 e desenvolvimento de sites</p>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -279,9 +302,9 @@ Sem o uso de CMS, não é necessário login e todo o gerenciamento de conteúdo 
                     
                     <div class="thumb dark-overlay">
                         <div class="photo">
-                            <a href="/comecando-com-o-hugo/">
-                                <img src="//i.imgur.com/av9fjGb.jpg" alt="Começando com o Hugo">
-                                <span class="info"><span class="big-excerpt">Começando com o Hugo</span></span>
+                            <a href="/o-site-agora-e-estatico/">
+                                <img src="//i.imgur.com/TTVL6yv.png" alt="O Blog agora é estático">
+                                <span class="info"><span class="big-excerpt">O Blog agora é estático</span></span>
                             </a>
                         </div>
                     </div>
