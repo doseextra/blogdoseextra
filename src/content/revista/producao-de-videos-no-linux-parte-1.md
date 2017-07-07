@@ -1,6 +1,7 @@
 ---
-title: Produção de Vídeos No Linux - Parte 1
-author: Regis Tomkiel
+title: "Produção de Vídeos No Linux - Parte 1"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,9 +17,9 @@ ImagePost:
 description: Comece a aprender a editar vídeos no Linux com ferramentas gratuitas e de fácil instalação e configuração. Seja um profissional do audiovisual com Linux.
 date: 2017-05-01
 categories:
-  - Artigo
-  - Tutoriais
   - Video
+  - Artigos
+  - Tutoriais
 tags:
   - edição de vídeo
   - filmmaker

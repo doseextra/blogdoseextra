@@ -1,6 +1,7 @@
 ---
-title: Produção de Vídeos No Linux – Parte 2
-author: Regis Tomkiel
+title: "Produção de Vídeos No Linux – Parte 2"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/03WTY8E.jpg
 description: Nesse segundo artigo da série Produção de Vídeos No Linux, descubra como instalar duas das ferramentas mais poderosas do mercado, o Kdenlive e o Natron.
 date: 2017-05-09
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
   - Video
 tags:

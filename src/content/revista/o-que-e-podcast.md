@@ -1,6 +1,7 @@
 ---
-title: O que é podcast?
-author: Regis Tomkiel
+title: "O que é podcast?"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/zoPjVu8.jpg
 description: Popularizado com o advento dos iPods da americana Apple, podcast é uma nova possibilidade para o consumo de conteúdo em massa.
 date: 2017-04-27
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
 tags:
   - Conheça

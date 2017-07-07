@@ -1,6 +1,7 @@
 ---
-title: Produção de Vídeos No Linux – Parte 3
-author: Regis Tomkiel
+title: "Produção de Vídeos No Linux – Parte 3"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/JSDYSJM.jpg
 description: Seguindo nossa série de artigos sobre Produção de Vídeos no Linux, hoje vamos falar sobre os famigerados e problemáticos "codecs"! Codecs e ProRes no Linux.
 date: 2017-06-07
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
   - Video
 tags:

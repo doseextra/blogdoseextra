@@ -1,14 +1,20 @@
 ---
-author:
-authorGp:
-authorFacebook:
-authorTwitter:
-authorImg:
+title: 
+author: 
+authorImg: 
+authorGp: 
+authorFacebook: 
+authorInstagram: 
+authorTwitter: 
+authorLinkedin: 
+authorEmail: 
+authorDescription: 
 type: post
-id:
-image:
-excerpt:
-
+id: revista
+image: 
+ImagePost: 
+description: 
+date: 
 categories:
-  - Artigos
+tags:
 ---

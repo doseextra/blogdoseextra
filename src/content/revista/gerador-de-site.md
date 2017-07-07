@@ -1,6 +1,7 @@
 ---
-title: Gerador de sites estáticos, Hugo
-author: Regis Tomkiel
+title: "Gerador de site estático"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -11,14 +12,14 @@ authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/av9fjGb.jpg
-ImagePost: //i.imgur.com/BGbjxrU.jpg
-description: Conheça o Hugo, o gerador de sites escrito em GO e de fácil aprendizado.
-date: 2017-07-01
+image: //i.imgur.com/UYOXpqi.jpg
+ImagePost: //i.imgur.com/VCeqZRb.jpg
+date: 2017-07-02
+description: Saiba como instalar e começar um projeto no gerenciador de sites Hugo. Gere sites estáticos facilmente.
 categories:
-  - Artigo
+  - Artigos
+  - Desenvolvimento web
   - Tutoriais
-  - Web
 tags:
   - css
   - html
@@ -26,8 +27,6 @@ tags:
   - web
   - html5
   - desenvolvimento de sites
-  - wordpress
-  
 ---
 Quando a *Google* lançou a Go sob a licença BSD, disponibilizou para a comunidade uma linguagem de programação compilada focada em produtividade, que se assemelha a *C* e possui fácil aprendizado. O que é mais legal disso tudo, é que com a Go, foi criado o Hugo, um gerador de sites que preza pela eficiência e desempenho.  
 ### O Hugo
@@ -46,4 +45,4 @@ Nem tudo são flores, é claro.
 Esqueça conteúdo dinâmico, Ajax e formulários. Sites 100% estáticos não sabem lidar com isso e é preciso recorrer à criatividade para solucionar esses problemas. Para o formulário de contatos, estamos usando o formspreee.io que permite 1000 envios mensais gratuitamente e adiciona uma camada de segurança com captcha e controle de spam. Para o resto, foram feitas algumas adaptações pontuais.  
 Alguns bugs ainda estão sendo corrigidos e o projeto pode ser acompanhado por nosso repositório no GitHub.  
 
-E para finalizar e não transformar este texto num livro, basta [ler este artigo](# "Primeiros passos com o Hugo") sobre os primeiros passos com o Hugo.  
+E para finalizar e não transformar este texto num livro, basta [ler este artigo](//blog,doseextra.com/comecando-com-o-hugo/ "Primeiros passos com o Hugo") sobre os primeiros passos com o Hugo.  

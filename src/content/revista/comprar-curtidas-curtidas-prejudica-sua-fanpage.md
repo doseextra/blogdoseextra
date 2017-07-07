@@ -1,6 +1,7 @@
 ---
-title: Comprar Curtidas Prejudica sua Fanpage
-author: Regis Tomkiel
+title: "Comprar Curtidas Prejudica sua Fanpage"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/kNnUXjk.png
 description: Comprar curtidas para sua página no Facebook? Saiba como isso pode ser prejudicial para sua marca, sua reputação e como pode ser péssimo para os negócios.
 date: 2017-05-30
 categories:
-  - Artigo
+  - Artigos
   - Midias Sociais
 tags:
   - Artigos

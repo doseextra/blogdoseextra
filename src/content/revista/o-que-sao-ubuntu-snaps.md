@@ -1,6 +1,7 @@
 ---
-title: O que é o Ubuntu Snap?
-author: Regis Tomkiel
+title: "O que são Ubuntu Snaps?"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -11,12 +12,11 @@ authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/av9fjGb.jpg
-ImagePost: //i.imgur.com/BGbjxrU.jpg
+image: //i.imgur.com/OmZVQAL.jpg
+ImagePost: //i.imgur.com/psObJ0K.jpg
 description: Você sabe o que são os pacotes Snaps? E sabe como eles funcionan no Linux?
 date: 2017-07-01
 categories:
-  - Artigo
   - Tutoriais
   - Web
   - Software Livre
@@ -27,6 +27,9 @@ tags:
   - web
   - html5
   - desenvolvimento de sites
+  - Ubuntu
+  - snaps
+  - Linux
 ---
 
 Uma das coisas mais bacanas do GNU/Linux é a liberdade de escolhas. É algo que não existe em nenhuma outra plataforma e que permite maior controle sobre o que está acontecendo. Eu mesmo não me vejo utilizando outro *SO*.  

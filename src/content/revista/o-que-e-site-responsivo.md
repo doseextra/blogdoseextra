@@ -1,6 +1,7 @@
 ---
-title: O Que é Site Responsivo?
-author: Regis Tomkiel
+title: "O Que é Site Responsivo?"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/BGbjxrU.jpg
 description: Entenda o que é um site responsivo, sua importância e as caracteŕisticas principais de seu funcionamento.
 date: 2017-05-04
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
   - Web
 tags:

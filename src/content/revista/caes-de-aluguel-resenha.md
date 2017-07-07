@@ -1,6 +1,7 @@
 ---
-title: Cães de Aluguel - Resenha
-author: Bruno Nascimento
+title: "Cães de Aluguel - Resenha"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277

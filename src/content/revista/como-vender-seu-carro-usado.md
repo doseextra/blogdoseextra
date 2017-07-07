@@ -1,6 +1,7 @@
 ---
-title: Como Vender Seu Carro Usado de Forma Épica
-author: Regis Tomkiel
+title: "Como Vender Seu Carro Usado de Forma Épica"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/qMNaERW.jpg
 description: O letão Eugene Romanovsky resolveu fazer um vídeo épico para vender seu carro usado e conseguiu milhões de propostas de compra.
 date: 2017-05-10
 categories:
-  - Artigo
+  - Artigos
   - Noticias
   - Video
 tags:

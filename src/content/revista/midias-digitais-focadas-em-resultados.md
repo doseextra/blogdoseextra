@@ -1,6 +1,7 @@
 ---
-title: Mídias Digitais Focadas Em Resultados
-author: Bruno Nascimento
+title: "Mídias Digitais Focadas Em Resultados"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277
@@ -17,7 +18,7 @@ date: 2017-05-27
 description: Com site e rede social profissionais é possível conquistar o mercado. A Dose Extra oferece o desenvolvimento de mídias digitais que traz resultado.
 categories:
   - Comunicacao
-  - Artigo
+  - Artigos
   - Marketing
   - Mídias Digitais
 tags:

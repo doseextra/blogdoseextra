@@ -1,6 +1,7 @@
 ---
-title: Design Gráfico
-author: Bruno Nascimento
+title: "Design Gráfico"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277
@@ -17,7 +18,7 @@ date: 2017-05-27
 description: Entenda de forma objetiva qual a importância do Design Gráfico para o mercado. Entenda os cuidados necessários com a identidade visual, marca e papelaria.
 categories:
   - Comunicacao
-  - Artigo
+  - Artigos
   - Marketing
   - Design
 tags:

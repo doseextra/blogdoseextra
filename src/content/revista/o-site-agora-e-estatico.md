@@ -1,6 +1,7 @@
 ---
-title: O Blog agora é estático
-author: Regis Tomkiel
+title: "O Blog agora é estático"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -16,7 +17,7 @@ ImagePost: //i.imgur.com/pa7Q7DJ.png
 description: Migramos do Wordpress! Agora o blog é gerado com o Hugo e GitHub!
 date: 2017-06-30
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
 tags:
   - Html
@@ -26,7 +27,6 @@ tags:
   - Web
   - Web estática
   - Blog
-
 ---
 
 

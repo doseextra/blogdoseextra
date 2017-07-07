@@ -3,5 +3,6 @@ title: Revista
 type: page
 image:
 excerpt:
-author: Régis Tomkiel
+author: "Phalo"
+description: Todas as postagens na categoria Revista do Dose Extra Blog
 ---

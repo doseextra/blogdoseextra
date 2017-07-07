@@ -1,6 +1,7 @@
 ---
-title: Johnny & June - Biografia Cinematográfica
-author: Bruno Nascimento
+title: "Johnny & June - Biografia Cinematográfica"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277

@@ -1,6 +1,7 @@
 ---
-title: Começando com o Hugo
-author: Regis Tomkiel
+title: "Instalando e configurando o gerador de sites Hugo"
+author: Regis
+authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
 authorGp: //plus.google.com/+RegisTomkiel
 authorFacebook: //www.facebook.com/registomkiel
@@ -11,14 +12,14 @@ authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/av9fjGb.jpg
-ImagePost: //i.imgur.com/BGbjxrU.jpg
-description: Saiba como instalar e começar um projeto no gerenciador de sites Hugo. Gere sites estáticos facilmente.
+image: //i.imgur.com/6n4Pfny.jpg
+ImagePost: //i.imgur.com/FKJ9vQQ.jpg
 date: 2017-07-01
+description: Saiba como instalar e começar um projeto no gerenciador de sites Hugo. Gere sites estáticos facilmente.
 categories:
-  - Artigo
+  - Artigos
   - Tutoriais
-  - Web
+  - Desenvolvimento Web
 tags:
   - css
   - html
@@ -26,9 +27,8 @@ tags:
   - web
   - html5
   - desenvolvimento de sites
-  
 ---
-### Nosso primeiro site com o Hugo
+
 O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.  
 
 ### Instalação
@@ -38,12 +38,14 @@ Para saber como instalar snaps no Gentoo, [acesse aqui](# "como instalar snaps n
 
 #### 1° - Acessando o terminal
 Para realizar a instalação, abra o aplicativo de terminal, neste caso estou usando o Gnome Shell e o programa padrão, o gnome-terminal ou simplesmente “terminal”.
+![Instalando o Hugo com o Snap](//i.imgur.com/LqOQRat.jpg "Como instalar o gerador de sites Hugo")  
 
 Com ele aberto, digite o seguinte comando:  
 ``sudo snap install hugo``  
 
 Aguarde o término da instalação e verifique a versão do Hugo:  
-``hugo -v``  
+``hugo version``  
+![Verificando a versão do Hugo](//i.imgur.com/ItqSO0z.jpg "Versão do gerador de sites Hugo")  
 
 Com a instalação bem sucedida, é hora de começar o site.
 
@@ -56,25 +58,32 @@ Acesse a pasta:
 
 Crie o primeiro projeto:
 ``hugo new site meu-primeiro-projeto``  
+![Criando o primeiro projeto](//i.imgur.com/jdBAkgr.jpg "Criando o primeiro projeto com o Hugo")
 
-Abra a pasta $HOME/Sites em seu editor de texto preferido, como o Gedit ou Atom, por exemplo.
+Abra a pasta ``$HOME/Sites`` em seu editor de texto preferido, como o [Gedit](//wiki.gnome.org/Apps/Gedit "Editor de texto do Gnome") ou [Atom](//atom.io/ "Editor de textos Atom"), por exemplo. Eu utilizei o [nano](//www.nano-editor.org/ "Editor GNU/Nano").
 
-Neste primeiro momento, vamos realizar só as configurações necessárias para o site ser minimamente acessado. Portanto, o próximo passo é procurar e baixar um template para ser utilizado. Acesse [este link](# "baixar o tema crap") ou utilize o git.  
+Neste primeiro momento, vamos realizar só as configurações necessárias para o site ser minimamente acessado. Portanto, o próximo passo é procurar e baixar um *template* para nosso projeto. Acesse [este link](# "baixar o tema crap") ou utilize o git.  
 ``git clone https://github.com/thomasheller/crab.git``  
+![Baixando um tema para o Hugo](//i.imgur.com/qDkwG3S.jpg "Baixando um tema simples para o projeto")
 
 Para o tema funcionar, mova a pasta “crab” para o diretório ``$HOME/Sites/meu-primeiro-projeto/themes/``, assim:  
 ``$ mv crap $HOME/Sites/meu-primeiro-projeto/themes/``  
+![Movendo o tema para a pasta correta](//i.imgur.com/PyIh8wg.jpg "Movendo o tema para a pasta correta no projeto")
 
 Para testar o site, acesse a pasta raiz de seu projeto:  
 ``$ cd $HOME/Sites/meu-primeiro-projeto``  
 
 Com o editor de texto, abra o arquivo config.toml e digite a seguinte linha:  
 ``theme = “crab”``  
+![Editando o arquivo de configurações](//i.imgur.com/HRQJler.jpg "Editando o arquivo de configurações config.toml")
 
-Novamente no terminal, digite e aperte o enter:  
+Novamente no terminal, digite:  
 ``$ hugo server``  
+![Iniciando o servidor de desenvolvimento](//i.imgur.com/22nJDK0.jpg "Iniciando nosso servidor com a prévia do site")
 
-Abra o navegador e acesse o endereço <http://localhos:1313> e seu site vai estar funcionando e nem precisa de Apache instalado na máquina.  
+Abra o navegador e acesse o endereço <http://localhost:1313> e seu site vai estar funcionando e nem precisa de Apache instalado na máquina.  
+
+![Acessar o site pelo navegador](//i.imgur.com/4Sopw63.jpg "Acessando o site no navegador")
 
 #### 3° - Personalizando e configurando
 Agora, com seu editor de código preferido, abra o arquivo *config.toml*. É nele que as principais configurações serão feitas, como a definição da URL base do site, definição do tema escolhido, título, dentre muitas outras.  

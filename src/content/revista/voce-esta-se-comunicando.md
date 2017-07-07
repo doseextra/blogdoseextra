@@ -1,6 +1,7 @@
 ---
-title: Você Está se Comunicando?
-author: Bruno Nascimento
+title: "Você Está se Comunicando?"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277
@@ -17,7 +18,6 @@ date: 2017-05-08
 description: Seria hipocrisia dizer que a vida seria melhor sem a internet ou as redes sociais, afinal sou uma usuária de ambas e estou postando meu texto em um ambiente virtual, mas é necessário o equilíbrio.
 categories:
   - Comunicacao
-  
 tags:
   - Comunicação
   - redes sociais

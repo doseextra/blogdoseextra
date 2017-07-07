@@ -4,5 +4,5 @@ type: page
 id: sobre
 image:
 excerpt:
-author: Régis Tomkiel
+author: "Phalo"
 ---

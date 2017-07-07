@@ -4,7 +4,7 @@
             <div class="podcast-head col sm-12 col-md-12">
                 <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="background-image">
                     <h2 class="single-title no-bottom">{{ .Title}}</h2>
-                    <p class="post-meta"><span>{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}"> {{ .Params.author }}</a></span></p>
+                    <p class="post-meta"><span>{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}"> {{ .Params.authorName }}</a></span></p>
                     <p>{{ .Params.Description }}</p>
                     <img src="{{ .Params.imagePOST }}" width="100%" alt="{{ .Title }}">
                     <br>
@@ -45,7 +45,7 @@
                 </p>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h5>{{ .Params.author }}</h5>
+                        <h5>{{ .Params.authorName }}</h5>
                         <p>{{ .Params.authorDescription }}</p>
                         <p class="social-share">
                             <a href="{{ .Params.authorFacebook }}" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>

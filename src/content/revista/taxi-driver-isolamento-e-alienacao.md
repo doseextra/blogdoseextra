@@ -1,6 +1,7 @@
 ---
-title: Taxi Driver - Isolamento e Alienação
-author: Bruno Nascimento
+title: "Taxi Driver - Isolamento e Alienação"
+author: Bruno
+authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
 authorFacebook: //www.facebook.com/profile.php?id=100004277

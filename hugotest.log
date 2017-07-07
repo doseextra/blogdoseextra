@@ -131,3 +131,9 @@ LOG:   2017/07/03 11:36:25 12 categories created
 LOG:   2017/07/03 11:36:25 3 author created
 LOG:   2017/07/03 11:36:25 84 tags created
 LOG:   2017/07/03 11:36:25 total in 290 ms
+WARN 2017/07/03 23:19:45 No translation bundle found for default language "pt-br"
+WARN 2017/07/03 23:19:45 Translation func for language pt-br not found, use default.
+WARN 2017/07/03 23:19:45 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/07/03 23:19:45 Started building sites ...
+WARN 2017/07/03 23:19:45 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/author.terms.html.html taxonomy/author.terms.html _default/terms.html.html _default/terms.html indexes/indexes.html.html indexes/indexes.html theme/taxonomy/author.terms.html.html theme/taxonomy/author.terms.html theme/_default/terms.html.html theme/_default/terms.html theme/indexes/indexes.html.html theme/indexes/indexes.html]
+ERROR 2017/07/03 23:19:45 Error while rendering "taxonomy": template: taxonomy/category.html:1:4: executing "taxonomy/category.html" at <$.Scratch.Add>: error calling Add: Can't apply the operator to the values
