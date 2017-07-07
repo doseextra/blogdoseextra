@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>http://blog.doseextra.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.doseextra.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O que são Ubuntu Snaps?</title>
+      <link>http://blog.doseextra.com/o-que-sao-ubuntu-snaps/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/o-que-sao-ubuntu-snaps/</guid>
+      <description>Uma das coisas mais bacanas do GNU/Linux é a liberdade de escolhas. É algo que não existe em nenhuma outra plataforma e que permite maior controle sobre o que está acontecendo. Eu mesmo não me vejo utilizando outro SO.
+O problema é referente à instalação de programas e a falta de padrão. Hoje os arquivos .deb e .rpm são predominantes e adotados até pela Google na disponibilização de seus programas.</description>
+    </item>
+    
+  </channel>
+</rss>

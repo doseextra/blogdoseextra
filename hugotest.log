@@ -137,3 +137,60 @@ WARN 2017/07/03 23:19:45 i18n not initialized, check that you have language file
 LOG:   2017/07/03 23:19:45 Started building sites ...
 WARN 2017/07/03 23:19:45 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/author.terms.html.html taxonomy/author.terms.html _default/terms.html.html _default/terms.html indexes/indexes.html.html indexes/indexes.html theme/taxonomy/author.terms.html.html theme/taxonomy/author.terms.html theme/_default/terms.html.html theme/_default/terms.html theme/indexes/indexes.html.html theme/indexes/indexes.html]
 ERROR 2017/07/03 23:19:45 Error while rendering "taxonomy": template: taxonomy/category.html:1:4: executing "taxonomy/category.html" at <$.Scratch.Add>: error calling Add: Can't apply the operator to the values
+WARN 2017/07/07 13:59:48 No translation bundle found for default language "pt-br"
+WARN 2017/07/07 13:59:48 Translation func for language pt-br not found, use default.
+WARN 2017/07/07 13:59:48 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/07/07 13:59:48 Started building sites ...
+WARN 2017/07/07 13:59:48 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/author.terms.pt-br.html.html taxonomy/author.terms.html.html taxonomy/author.terms.pt-br.html taxonomy/author.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/author.terms.pt-br.html.html theme/taxonomy/author.terms.html.html theme/taxonomy/author.terms.pt-br.html theme/taxonomy/author.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 13:59:48 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/category.terms.pt-br.html.html taxonomy/category.terms.html.html taxonomy/category.terms.pt-br.html taxonomy/category.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/category.terms.pt-br.html.html theme/taxonomy/category.terms.html.html theme/taxonomy/category.terms.pt-br.html theme/taxonomy/category.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 13:59:48 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/tag.terms.pt-br.html.html taxonomy/tag.terms.html.html taxonomy/tag.terms.pt-br.html taxonomy/tag.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/tag.terms.pt-br.html.html theme/taxonomy/tag.terms.html.html theme/taxonomy/tag.terms.pt-br.html theme/taxonomy/tag.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+LOG:   2017/07/07 13:59:48 Built site for language pt-br:
+LOG:   2017/07/07 13:59:48 0 draft content
+LOG:   2017/07/07 13:59:48 0 future content
+LOG:   2017/07/07 13:59:48 0 expired content
+LOG:   2017/07/07 13:59:48 21 regular pages created
+LOG:   2017/07/07 13:59:48 248 other pages created
+LOG:   2017/07/07 13:59:48 0 non-page files copied
+LOG:   2017/07/07 13:59:48 119 paginator pages created
+LOG:   2017/07/07 13:59:48 3 author created
+LOG:   2017/07/07 13:59:48 95 tags created
+LOG:   2017/07/07 13:59:48 18 categories created
+LOG:   2017/07/07 13:59:48 total in 225 ms
+WARN 2017/07/07 14:17:56 No translation bundle found for default language "pt-br"
+WARN 2017/07/07 14:17:56 Translation func for language pt-br not found, use default.
+WARN 2017/07/07 14:17:56 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/07/07 14:17:56 Started building sites ...
+WARN 2017/07/07 14:17:56 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/author.terms.pt-br.html.html taxonomy/author.terms.html.html taxonomy/author.terms.pt-br.html taxonomy/author.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/author.terms.pt-br.html.html theme/taxonomy/author.terms.html.html theme/taxonomy/author.terms.pt-br.html theme/taxonomy/author.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 14:17:56 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/category.terms.pt-br.html.html taxonomy/category.terms.html.html taxonomy/category.terms.pt-br.html taxonomy/category.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/category.terms.pt-br.html.html theme/taxonomy/category.terms.html.html theme/taxonomy/category.terms.pt-br.html theme/taxonomy/category.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 14:17:56 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/tag.terms.pt-br.html.html taxonomy/tag.terms.html.html taxonomy/tag.terms.pt-br.html taxonomy/tag.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/tag.terms.pt-br.html.html theme/taxonomy/tag.terms.html.html theme/taxonomy/tag.terms.pt-br.html theme/taxonomy/tag.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+LOG:   2017/07/07 14:17:56 Built site for language pt-br:
+LOG:   2017/07/07 14:17:56 0 draft content
+LOG:   2017/07/07 14:17:56 0 future content
+LOG:   2017/07/07 14:17:56 0 expired content
+LOG:   2017/07/07 14:17:56 21 regular pages created
+LOG:   2017/07/07 14:17:56 248 other pages created
+LOG:   2017/07/07 14:17:56 0 non-page files copied
+LOG:   2017/07/07 14:17:56 119 paginator pages created
+LOG:   2017/07/07 14:17:56 95 tags created
+LOG:   2017/07/07 14:17:56 18 categories created
+LOG:   2017/07/07 14:17:56 3 author created
+LOG:   2017/07/07 14:17:56 total in 180 ms
+WARN 2017/07/07 14:21:02 No translation bundle found for default language "pt-br"
+WARN 2017/07/07 14:21:02 Translation func for language pt-br not found, use default.
+WARN 2017/07/07 14:21:02 i18n not initialized, check that you have language file (in i18n) that matches the site language or the default language.
+LOG:   2017/07/07 14:21:02 Started building sites ...
+WARN 2017/07/07 14:21:02 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/author.terms.pt-br.html.html taxonomy/author.terms.html.html taxonomy/author.terms.pt-br.html taxonomy/author.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/author.terms.pt-br.html.html theme/taxonomy/author.terms.html.html theme/taxonomy/author.terms.pt-br.html theme/taxonomy/author.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 14:21:02 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/category.terms.pt-br.html.html taxonomy/category.terms.html.html taxonomy/category.terms.pt-br.html taxonomy/category.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/category.terms.pt-br.html.html theme/taxonomy/category.terms.html.html theme/taxonomy/category.terms.pt-br.html theme/taxonomy/category.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+WARN 2017/07/07 14:21:02 [pt-br] Unable to locate layout for "taxonomyTerm": [taxonomy/tag.terms.pt-br.html.html taxonomy/tag.terms.html.html taxonomy/tag.terms.pt-br.html taxonomy/tag.terms.html _default/terms.pt-br.html.html _default/terms.html.html _default/terms.pt-br.html _default/terms.html indexes/indexes.pt-br.html.html indexes/indexes.html.html indexes/indexes.pt-br.html indexes/indexes.html theme/taxonomy/tag.terms.pt-br.html.html theme/taxonomy/tag.terms.html.html theme/taxonomy/tag.terms.pt-br.html theme/taxonomy/tag.terms.html theme/_default/terms.pt-br.html.html theme/_default/terms.html.html theme/_default/terms.pt-br.html theme/_default/terms.html theme/indexes/indexes.pt-br.html.html theme/indexes/indexes.html.html theme/indexes/indexes.pt-br.html theme/indexes/indexes.html]
+LOG:   2017/07/07 14:21:02 Built site for language pt-br:
+LOG:   2017/07/07 14:21:02 0 draft content
+LOG:   2017/07/07 14:21:02 0 future content
+LOG:   2017/07/07 14:21:02 0 expired content
+LOG:   2017/07/07 14:21:02 21 regular pages created
+LOG:   2017/07/07 14:21:02 248 other pages created
+LOG:   2017/07/07 14:21:02 0 non-page files copied
+LOG:   2017/07/07 14:21:02 119 paginator pages created
+LOG:   2017/07/07 14:21:02 95 tags created
+LOG:   2017/07/07 14:21:02 18 categories created
+LOG:   2017/07/07 14:21:02 3 author created
+LOG:   2017/07/07 14:21:02 total in 163 ms

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redes Sociais on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>http://blog.doseextra.com/tags/redes-sociais/</link>
+    <description>Recent content in Redes Sociais on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.doseextra.com/tags/redes-sociais/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Você Está se Comunicando?</title>
+      <link>http://blog.doseextra.com/voce-esta-se-comunicando/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/voce-esta-se-comunicando/</guid>
+      <description>Texto escrito por Laura Kirchhof e originalmente postado no antigo site Dose Extra.
+Com a evolução dos meios de comunicação social, atualmente as informações se disseminam de maneira muito rápida. O processo da globalização em conjunto ao capitalismo, fez com que os veículos de comunicação ficassem acessíveis a maior parte da população e o que parecia impossível, com a tecnologia e a expansão da internet, tornou-se realidade. Hoje vivemos num mundo totalmente conectado.</description>
+    </item>
+    
+  </channel>
+</rss>

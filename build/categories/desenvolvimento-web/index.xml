@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desenvolvimento Web on Conteúdo livre para todos! Web, design e multimídia!</title>
+    <link>http://blog.doseextra.com/categories/desenvolvimento-web/</link>
+    <description>Recent content in Desenvolvimento Web on Conteúdo livre para todos! Web, design e multimídia!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 06 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.doseextra.com/categories/desenvolvimento-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O que são as meta tags?</title>
+      <link>http://blog.doseextra.com/o-que-sao-metatags/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/o-que-sao-metatags/</guid>
+      <description>Informações de um site Um site possui basicamente dois tipos de informação quando acessado no navegador. O primeiro grupo, trata-se do conteúdo em primeiro plano legível para as pessoas, ou seja, tudo visível contido na página. Alguns exemplos, podem ser:
+ Texto de um artigo Imagem em destaque Links de compartilhamento Informações do autor Publicidade  O outro grupo é composto pelas informações de segundo plano, que não são relevantes ao usuário, mas aos robôs dos sites de buscas e ao navegador, por exemplo.</description>
+    </item>
+    
+    <item>
+      <title>Gerador de site estático</title>
+      <link>http://blog.doseextra.com/gerador-de-site/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/gerador-de-site/</guid>
+      <description>Quando a Google lançou a Go sob a licença BSD, disponibilizou para a comunidade uma linguagem de programação compilada focada em produtividade, que se assemelha a C e possui fácil aprendizado. O que é mais legal disso tudo, é que com a Go, foi criado o Hugo, um gerador de sites que preza pela eficiência e desempenho.
+O Hugo O Hugo é basicamente um gerador de site estático, ou seja, diferente de um CMS em php, onde os códigos são interpretados em tempo real no servidor, com o Hugo, nosso site é gerado através de blocos localmente e o resultado, é o projeto já em html.</description>
+    </item>
+    
+    <item>
+      <title>Instalando e configurando o gerador de sites Hugo</title>
+      <link>http://blog.doseextra.com/comecando-com-o-hugo/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.doseextra.com/comecando-com-o-hugo/</guid>
+      <description>O objetivo desse artigo é demonstrar os primeiros passos na criação de um site no Hugo, portanto, não espere nada muito avançado, pois o foco é para quem nunca viu ele funcionando.
+Instalação Iremos abordar a instalação em sistemas GNU/Linux, mais precisamente, usando pacotes Snaps no Gentoo Linux. É um método muito fácil e que ajuda a manter o Hugo sempre atualizado e funcionando sem qualquer configuração adicional.
+Para saber como instalar snaps no Gentoo, acesse aqui.</description>
+    </item>
+    
+  </channel>
+</rss>
