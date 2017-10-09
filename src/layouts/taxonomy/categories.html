@@ -22,13 +22,14 @@
         {{end}}
       <div id="ajax-posts">
 
-        {{ range (.Paginator 20).Pages }}
+        {{ range (.Paginator 10).Pages }}
         <div class="box col-sm-6">
           <div class="post-box horizontal clearfix">
             <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.image }}" alt="{{ .Title }}"></a>
             <div class="extra-info">
               <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Param "authorName" }}</a></p>
-              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+              <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
+              <p class="small">{{ .Params.Description }}</p>
             </div>
           </div>
         </div>

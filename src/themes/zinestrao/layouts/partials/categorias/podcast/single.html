@@ -8,11 +8,15 @@
 
         <p>{{ .Params.Summary }}</p>
         <img src="{{ .Params.imagePOST }}" width="100%" alt="{{ .Title }}">
-
+        <audio controls style="width:100%">
+          <source src="{{ .Params.PodcastOgg }}" type="audio/ogg">
+          <source src="{{ .Params.PodcastMp3 }}" type="audio/mpeg">
+          Seu navegador não é suportado.
+        </audio>
+        <p><a href="{{ .Params.PodcastFeed }}">Assinar Feed</a> - <a href="{{ .Params.PodcastMp3 }}">Baixar Episódio em .mp3</a> - <a href="{{ .Params.PodcastOgg }}">Baixar Episódio em .ogg</a> - <a href="{{ .Params.PodcastZip }}">Baixar em .zip</a></p>
       </div>
     </div>
     </div>
-    <div class="margin-4"></div>
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         {{ .Content }}

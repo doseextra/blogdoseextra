@@ -3,7 +3,7 @@
     <div class="inner">
       <div class="row">
 
-        {{ range first 2 (where .Data.Pages "Section" "podcast") }}
+        {{ range first 2 (where .Data.Pages.ByDate.Reverse "Section" "podcast") }}
         <div class="box col-sm-7 col-md-6">
           <div class="thumb featured">
 
@@ -29,7 +29,8 @@
             <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.Image }}" alt="{{ .Title }}"></a>
             <div class="extra-info">
               <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Param "authorName" }}</a></p>
-              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+              <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
+              <p class="small">{{ .Params.Description }}</p>
             </div>
           </div>
         </div>

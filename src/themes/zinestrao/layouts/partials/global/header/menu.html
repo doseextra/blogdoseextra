@@ -4,9 +4,9 @@
 							<li class="menu-item-has-children" >
                 <a href="{{ .Site.BaseURL }}/podcast/">Podcast</a>
               <ul>
-                <li><a href="{{ .Site.BaseURL }}">Software livre</a></li>
-                <li><a href="{{ .Site.BaseURL }}">Web</a></li>
-                <li><a href="{{ .Site.BaseURL }}">Multimídia</a></li>
+                <li><a href="{{ .Site.BaseURL }}/categories/software-livre">Software livre</a></li>
+								<li><a href="{{ .Site.BaseURL }}/categories/multimidia">Multimídia</a></li>
+								<li><a href="{{ .Site.BaseURL }}/diversidades">Diversidades</a></li>
               </ul>
               </li>
 							<li class="menu-item-has-children">
@@ -30,9 +30,10 @@
 							</li>
 							<li class="menu-item-search">
 								<a href="#"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
-								<form method="get" id="site-searchform" class="searchform" action="#">
-									<input type="search" name="s" autocomplete="off" placeholder="Pesquisar&hellip;">
-									<input type="submit" value="&#xf002;">
+								<form method="get" id="site-searchform" class="searchform" action="//google.com/search" accept-charset="UTF-8" role="search">
+									<input type="search" name="q" autocomplete="off" placeholder="Pesquisar&hellip;">
+									<input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
+									<input type="submit">
 								</form>
 							</li>
 						</ul>

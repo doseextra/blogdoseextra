@@ -1,11 +1,11 @@
 baseURL = "https://blog.doseextra.com"
 DefaultContentLanguage = "pt-br"
 languageCode = "pt-br"
-title = "Conteúdo livre para todos! Web, design e multimídia!"
+title = "Blog Dose Extra"
 theme = "zinestrao"
 
 [params]
-  siteName = "Dose Extra Blog"
+  siteName = "Blog Dose Extra"
   description = "Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha."
   twitter = "@sitedoseextra"
   TwitterURL = "//twitter.com/sitedoseextra"
@@ -15,6 +15,9 @@ theme = "zinestrao"
   messenger = "//www.messenger.com/t/1625905931054179"
   instagram = "//instagram.com/doseextra"
   gplus = ""
+  ItunesSum = "Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia."
+  ItunesDes = "Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia."
+  ItunesImg = "img/podcast/capadoseextra.png"
 
 [permalinks]
   podcast = "/:filename"

@@ -10,11 +10,11 @@ authorTwitter: //twitter.com/tomtomkiel
 authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
-type: podcast
-id: podcast
+type: post
+id: revista
 image: //i.imgur.com/ogmw40y.jpg
 ImagePost: //i.imgur.com/kJpY4t2.jpg
-date: 
+date: 2017-10-07
 description: Comece a desenvolver sites facilmente utilizando o Wordpress com as dicas do convidado Mateus Avila.
 categories:
   - Wordpress

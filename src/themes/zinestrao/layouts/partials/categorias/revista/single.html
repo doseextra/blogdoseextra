@@ -41,7 +41,7 @@
 
                 <div class="sep margin-2"></div>
                 <p>
-                    <a href="#" class="display-inline-block"><img src="{{ .Site.BaseURL }}{{ .Params.authorImg }}" width="96" height="96" class="round" alt="{{ .Params.author }}" - {{ .Site.Title }}></a>
+                    <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}" class="display-inline-block"><img src="{{ .Site.BaseURL }}{{ .Params.authorImg }}" width="96" height="96" class="round" alt="{{ .Params.author }}" - {{ .Site.Title }}></a>
                 </p>
                 <div class="row">
                     <div class="col-sm-6">
