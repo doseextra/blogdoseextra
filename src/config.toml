@@ -23,6 +23,7 @@ theme = "zinestrao"
   podcast = "/:filename"
   revista = "/:filename"
   paginas = "/:filename"
+  artigos = "/:filename"
 
 [taxonomies]
   tag = "tags"

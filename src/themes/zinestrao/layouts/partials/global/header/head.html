@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.Description}}{{ else }}{{ .Title }} - {{ .Site.Params.Description }}{{ end}}</title>
+<title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.Description}}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end}}</title>
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "description"}}{{ .Param "description" }}{{else}}{{ .Summary }}{{end}}{{ end }}"/>
 <base href="{{ .Site.BaseURL }}"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -29,4 +29,3 @@
 {{ .Hugo.Generator }}
 {{ partial "global/header/favicon.html" . }}
 {{ partial "global/header/estilos.html" . }}
-

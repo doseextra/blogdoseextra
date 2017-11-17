@@ -15,7 +15,7 @@ id: podcast
 image: //i.imgur.com/f1sgrpG.jpg
 ImagePost: //i.imgur.com/FthIpxn.png
 date: 2017-09-14
-description: Comece a desenvolver sites facilmente utilizando o Wordpress com as dicas do convidado Mateus Avila.
+description: Vamos falar de lançamento de livro de forma independente e sobre divulgação atráves de redes sociais.
 categories:
   - Literatura
   - Multmidia

@@ -13,7 +13,7 @@
                 <img src="{{ .Params.image }}" alt="{{ .Title }}" >
                 <span class="info">
                   <strong class="big-title">{{ .Title }}</strong>
-                  <span class="excerpt">{{ .Params.Summary }}</span>
+                  <span class="excerpt">{{ .Params.Description }}</span>
                   <em class="arrow-right"></em>
                 </span>
               </a>
@@ -23,7 +23,7 @@
         {{ end }}
 
       <div id="ajax-posts">
-        {{ range first 6 (where .Data.Pages "Section" "revista") }}
+        {{ range first 6 (where .Data.Pages "Section" "artigos") }}
         <div class="box col-sm-6">
           <div class="post-box horizontal clearfix">
             <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.Image }}" alt="{{ .Title }}"></a>

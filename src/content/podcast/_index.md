@@ -1,5 +1,5 @@
 ---
-title: Podcast
+title: Podcasts
 type: page
 image:
 excerpt:

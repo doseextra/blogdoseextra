@@ -25,11 +25,11 @@ tags:
   - software livre
   - evento
   - podcast
-PodcastMp3: //archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.mp3
-PodcastOgg: //archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.ogg
-PodcastFeed: //feeds.feedburner.com/DoseExtra
-PodcastZip: //archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.zip
-PodcastBytes: 45942784 
+PodcastMp3: https://archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.mp3
+PodcastOgg: https://archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.ogg
+PodcastFeed: https://feeds.feedburner.com/DoseExtra
+PodcastZip: https://archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.zip
+PodcastBytes: 45942784
 PodcastDuration: 0:27:18
 ---
 
@@ -50,7 +50,7 @@ A conversa também está disponivel em vídeo em meu canal no YouTube ["Tomkiel"
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/GiRiSrSbQng" frameborder="0" allowfullscreen></iframe>  
 
-   
+
 
 Um agradecimento especial ao [Ivan Fuzzer](https://www.facebook.com/ivanbrasil "Ivan Fuzzer") pela gravação das imagens e disponibilização para uso e edição do vídeo.  
 
