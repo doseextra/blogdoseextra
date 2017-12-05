@@ -13,19 +13,21 @@
 <meta name="googlebot" content="index,follow,snippet,archive"/>
 <link rel="canonical" href="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ .Site.Params.languageCode }}" />
-{{ if .IsHome }}<meta property="og:type" content="website" />{{ else }}<meta property="og:type" content="article" />{{end}}
-{{ with .Title }}<meta property="og:title" content="{{ . }} | Dose Extra Blog" />{{ end }}
-<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "description"}}{{ .Param "description" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
+{{ if .IsHome }}<meta property="og:type" content="blog" />{{ else }}<meta property="og:type" content="article" />{{end}}
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.Description}}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end}}" />
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description}}{{ else }}{{if .Param "description"}}{{ .Param "description" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Params.SiteName }}" />
-<meta property="og:image" content="{{ with .Params.ImagePost  }}{{ . }}{{ else }}images/missing-img.png{{ end }}"/>
-<meta property="article:author" content="{{ .Params.AuthorFacebook }}"/>
-<meta property="article:tag" content="">
+<meta property="og:image" content="{{ with .Params.ImagePost  }}{{ . }}{{ else }}https://scontent.fpoa2-1.fna.fbcdn.net/v/t1.0-9/23519192_1848832715428165_6368092186853263214_n.jpg?oh=f7aec39253ea6cef6448cf10b1e01335&oe=5A9AD4C2{{ end }}"/>
+{{ if .IsHome }} {{ else}}<meta property="article:author" content="{{ .Params.AuthorFacebook }}"/>{{ end}}
+{{ if isset .Params "tags" }}<meta property="article:tag" content="{{ delimit .Params.tags ", "}}">{{ end }}
+<meta property="fb:admins" content="100000441045918,100001404718783"/>
+<meta property="fb:app_id" content="298390197338536"/>
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "description"}}{{ .Param "description" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.SiteName}}{{ else }}{{ .Title }} - {{ .Site.Params.SiteName }}{{ end}}" />
 <meta name="twitter:site" content="{{ .Site.Params.Twitter }}" />
-<meta name="twitter:image" content="{{ with .Params.ImagePost }}{{ . }}{{ else }}images/missing-img.png{{ end }}"/>
+<meta name="twitter:image" content="{{ with .Params.ImagePost }}{{ . }}{{ else }}https://scontent.fpoa2-1.fna.fbcdn.net/v/t1.0-9/23519192_1848832715428165_6368092186853263214_n.jpg?oh=f7aec39253ea6cef6448cf10b1e01335&oe=5A9AD4C2{{ end }}"/>
 {{ .Hugo.Generator }}
 {{ partial "global/header/favicon.html" . }}
 {{ partial "global/header/estilos.html" . }}

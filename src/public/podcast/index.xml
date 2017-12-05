@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Dose Extra</title>
+    <atom:link href="https://blog.doseextra.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.doseextra.com</link>
+    <lastBuildDate>Mon, 9 Oct 2017 00:00:00 &#43;0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>pt-br</language>
+    <copyright>2017 Dose Extra</copyright>
+    <itunes:subtitle>Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha.</itunes:subtitle>
+    <itunes:author>Regis Tomkiel</itunes:author>
+    <itunes:summary>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia..</itunes:summary>
+    <description>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia.</description>
+    <itunes:owner>
+    <itunes:name>Dose Extra</itunes:name>
+    <itunes:email>regis@doseextra.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://blog.doseextra.com/img/podcast/capadoseextra.png" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" />
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    
+
+    <item>
+      <title>Dose Extra #03 - Carreira Profissional Com Software Livre E Tchelinux</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Tchelinux Bento Gonçalves 2017 No terceiro episódio do podcast disponibilizamos a gravação da mesa de conversa que aconteceu no Tchelinux Bento Gonçalves 2017 e que contou com a participação de muita gente bacana. Os assuntos discutidos, foram a carreira profissional em Software livre, a história do grupo e algumas curiosidades.
+Entre os participantes, contamos com o Leo Vaz, um dos fundadores do grupo no estado e um dos responsáveis pelo sucesso do evento.</itunes:summary>
+      <description>Trabalhar com Software Livre? A história do Tchelinux no RS? Ouça a mesa de conversa gravada em Bento Gonçalves.</description>
+      <enclosure url="https://archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.mp3" length="45942784" type="audio/mpeg" />
+      <guid>https://archive.org/download/PodcastDoseExtra03CarreiraProfissionalSlTchelinux/PodcastDoseExtra03CarreiraProfissionalSlTchelinux.mp3</guid>
+      <link>https://blog.doseextra.com/tchelinux-software-livre-carreira-profissional/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:27:18</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+
+    <item>
+      <title>Dose Extra #2 - Como Distribuir Seu Livro Como Escritor Independente</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Como distribuir seu livro No segundo episódio de nosso podcast conversamos com o escritor e produtor cultural Lucas de Lucca sobre o processo de lançamento e divulgação de seus livros. Falamos sobre as dificuldades de divulgação, de como as parcerias com criadores de conteúdo ajudou. O primeiro livro do autor, lançado inteiramente de forma independente já vendeu mais de 600 cópias, um número interessante, considerando que se trata de um projeto muito jovem.</itunes:summary>
+      <description>Vamos falar de lançamento de livro de forma independente e sobre divulgação atráves de redes sociais.</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/lancando-livro-de-forma-independente/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+
+    <item>
+      <title>Dose Extra #1 - Desenvolvendo Sites Com Wordpress </title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Desenvoler um site wordpress nunca foi tão fácil Nesse primeiro podcast, recebemos o desenvolvedor Mateus Ávila para conversarmos sobre a importância do CMS Wordpress e sobre a facilidade de começar um projeto com a ferramenta. O negócio é demonstrar a simplicidade e como não é um bicho de sete cabeças, como muitas pessoas acreditam.
+Escute pelo site ou no seu agregador preferido!
+Sobre o Mateus: Nome: Mateus Ávila Isidoro</itunes:summary>
+      <description>Comece a desenvolver sites facilmente utilizando o Wordpress com as dicas do convidado Mateus Avila.</description>
+      <enclosure url="https://archive.org/download/DoseExtra1-DesenvolvendoSitesComWordpress/Podcast-doseextra-01.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://archive.org/download/DoseExtra1-DesenvolvendoSitesComWordpress/Podcast-doseextra-01.mp3</guid>
+      <link>https://blog.doseextra.com/simplificando-o-wordpress-com-mateus-avila/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+
+
+  </channel>
+</rss>

@@ -1,20 +1,20 @@
 ---
-title: 
-author: 
-authorImg: 
-authorGp: 
-authorFacebook: 
-authorInstagram: 
-authorTwitter: 
-authorLinkedin: 
-authorEmail: 
-authorDescription: 
+title:
+author:
+authorImg:
+authorGp:
+authorFacebook:
+authorInstagram:
+authorTwitter:
+authorLinkedin:
+authorEmail:
+authorDescription:
 type: post
 id: revista
-image: 
-ImagePost: 
-description: 
-date: 
+image:
+ImagePost:
+description:
+date:
 categories:
-tags:
+tags: 
 ---

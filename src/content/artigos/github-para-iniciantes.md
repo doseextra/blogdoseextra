@@ -15,7 +15,7 @@ id: revista
 image: //i.imgur.com/P96FH2c.jpg
 ImagePost: //i.imgur.com/Zn2B9jq.jpg
 date: 2017-10-09
-description: Aprenda a utilizar e configurar o GitHub facilmente com um quia detalhado.
+description: Aprenda a utilizar e configurar o GitHub facilmente com um guia detalhado.
 categories:
   - Wordpress
   - Software Livre
@@ -50,9 +50,9 @@ A primeira coisa a se fazer, é obviamente criar um usuario no GitHub acessando 
 **Clonando nosso primeiro projeto**  
 ``git clone "https://github.com/tchelinuxorg/recursos-grafico.git``
 
-Depois disso, temos a pasta ***recursos-graficos*** com todos os arquivos e códigos presentes no repositório. 
+Depois disso, temos a pasta ***recursos-graficos*** com todos os arquivos e códigos presentes no repositório.
 
-!["Arquivos clonados do repositório "master""](//i.imgur.com/tTDjqHQ.jpg "Lista de arquivos clonados do repositório "master"") 
+!["Arquivos clonados do repositório "master""](//i.imgur.com/tTDjqHQ.jpg "Lista de arquivos clonados do repositório "master"")
 
 
 #### Configurando nosso git
@@ -71,12 +71,12 @@ Essas alterações ficam gravadas no diretório /home/SEUUSUARIO/.gitconfig e po
 
 #### Criando um fork do projeto
 Bom, já sabemos como clonar, mas e como submeter as alterações realizadas?   
-Quando se trata de projetos abertos, existem pelo menos duas opções de submissão de alterações. A mais simples é através de forks e a outra é fazendo parte da equipe do repositório. 
+Quando se trata de projetos abertos, existem pelo menos duas opções de submissão de alterações. A mais simples é através de forks e a outra é fazendo parte da equipe do repositório.
 Nesse primeiro artigo, vamos ver como criar um fork utilizando a interface do site GitHub:   
 
 ![ "Realizando um fork no GitHub" ](//i.imgur.com/Zq8JzoD.jpg "Realizando um fork no GitHub")
 
-Quando criamos um fork, estamos copiando o estado de desenvolvimento de um projeto em um repositório novo, sob nosso usuário. E com o fork pronto, precisamos realizar o clone novamente, agora em uma nova pasta: 
+Quando criamos um fork, estamos copiando o estado de desenvolvimento de um projeto em um repositório novo, sob nosso usuário. E com o fork pronto, precisamos realizar o clone novamente, agora em uma nova pasta:
 ``git clone "https://github.com/seuusuario/recursos-graficos.git``  
 
 Agora temos total liberdade de alterações do projeto em nosso repositório. Sabendo disso, vamos para o próximo passo e realizar nosso primeiro commit.   
@@ -92,7 +92,7 @@ Uma vez completo, precisamos realizar o commit, informando nossas alterações, 
 Para finalizar e enviar os arquivos para o servidor, basta finalizar com o seguinte comando:   
 ``git push``   
 
-Será solicitado seu usuário e senha do GitHub. 
+Será solicitado seu usuário e senha do GitHub.
 
 #### O pull request
 

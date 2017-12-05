@@ -7,7 +7,7 @@
                 <li><a href="{{ .Site.BaseURL }}/categories/software-livre">Software livre</a></li>
 								<li><a href="{{ .Site.BaseURL }}/categories/multimidia">Multimídia</a></li>
 								<li><a href="{{ .Site.BaseURL }}/diversidades">Diversidades</a></li>
-                <li><a href="{{ .Site.BaseURL }}/podcast/papoextra/">Papo Extra</a></li>
+                <li><a href="{{ .Site.BaseURL }}/papoextra/">Papo Extra</a></li>
               </ul>
               </li>
 							<li class="menu-item-has-children">
@@ -28,10 +28,10 @@
 							</li>
 							<li class="menu-item-search">
 								<a href="#"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
-								<form method="get" id="site-searchform" class="searchform" action="//google.com/search" accept-charset="UTF-8" role="search">
-									<input type="search" name="q" autocomplete="off" placeholder="Pesquisar&hellip;">
-									<input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
-									<input type="submit">
+								<form method="get" id="site-searchform" class="searchform" action="http://www.google.com/search" accept-charset="UTF-8" role="search">
+									<input type="search" name="q" autocomplete="on" placeholder="Pesquisar&hellip;">
+									<input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}">
+
 								</form>
 							</li>
 						</ul>

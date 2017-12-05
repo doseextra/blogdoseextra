@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head><!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Produção de Vídeos No Linux - Parte 1 - Blog Dose Extra</title>
+<meta name="description" content="Comece a aprender a editar vídeos no Linux com ferramentas gratuitas e de fácil instalação e configuração. Seja um profissional do audiovisual com Linux."/>
+<base href="https://blog.doseextra.com"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<meta name="robots" content="all,follow"/>
+<meta name="googlebot" content="index,follow,snippet,archive"/>
+<link rel="canonical" href="https://blog.doseextra.com/producao-de-videos-no-linux-parte-1/" />
+<meta property="og:locale" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Produção de Vídeos No Linux - Parte 1 | Dose Extra Blog" />
+<meta property="og:description" content="Comece a aprender a editar vídeos no Linux com ferramentas gratuitas e de fácil instalação e configuração. Seja um profissional do audiovisual com Linux." />
+<meta property="og:url" content="https://blog.doseextra.com/producao-de-videos-no-linux-parte-1/" />
+<meta property="og:site_name" content="Blog Dose Extra" />
+<meta property="og:image" content="images/missing-img.png"/>
+<meta property="article:author" content="//www.facebook.com/registomkiel"/>
+<meta property="article:tag" content="">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Comece a aprender a editar vídeos no Linux com ferramentas gratuitas e de fácil instalação e configuração. Seja um profissional do audiovisual com Linux." />
+<meta name="twitter:title" content="Produção de Vídeos No Linux - Parte 1 - Blog Dose Extra" />
+<meta name="twitter:site" content="@sitedoseextra" />
+<meta name="twitter:image" content="images/missing-img.png"/>
+<meta name="generator" content="Hugo 0.31" />
+<link rel="shortcut icon" href="https://blog.doseextra.com/img/site/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic%7CRoboto:400,700%7CDroid+Serif" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://blog.doseextra.com/dist/css/roboto.css">
+<link rel="stylesheet" href="https://blog.doseextra.com/dist/css/style.min.css">
+
+
+ 
+
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9&appId=535984886445903";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+ 
+
+
+
+<!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+
+</head>
+<body>
+<header id="top" class="navbar" role="banner">
+		<div class="container">
+			<div class="inner">
+
+				<div class="site-title">
+					<h1><a href="https://blog.doseextra.com"><img src="https://blog.doseextra.com/img/site/logod.png" alt="Blog Dose Extra"></a></h1>
+					<a href="#site-menu" class="site-menu-toggle">
+						<span class="sr-only">Navegação</span>
+						<em class="first"></em><em class="middle"></em><em class="last"></em>
+					</a>
+				</div>
+
+				<div id="site-menu">
+					<nav>
+  <ul>
+							<li class="current-menu-item"><a href="https://blog.doseextra.com">Início</a></li>
+							<li class="menu-item-has-children" >
+                <a href="https://blog.doseextra.com/podcast/">Podcasts</a>
+              <ul>
+                <li><a href="https://blog.doseextra.com/categories/software-livre">Software livre</a></li>
+								<li><a href="https://blog.doseextra.com/categories/multimidia">Multimídia</a></li>
+								<li><a href="https://blog.doseextra.com/diversidades">Diversidades</a></li>
+                <li><a href="https://blog.doseextra.com/papoextra/">Papo Extra</a></li>
+              </ul>
+              </li>
+							<li class="menu-item-has-children">
+								<a href="https://blog.doseextra.com/artigos/">Artigos</a>
+								<ul>
+                  <li><a href="https://blog.doseextra.com/categories/web/">Desevolvimento web</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/mídias-digitais/">Mídias Digitais</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/design/">Design</a></li>
+									<li><a href="https://blog.doseextra.com/categories/video/">Video e Fotografia</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/comunicacao/">Comunicação</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/artigos/">Artigos</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/tutoriais/">Tutoriais</a></li>
+                  <li><a href="https://blog.doseextra.com/categories/resenha/">Resenhas</a></li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="https://blog.doseextra.com/sobre/">Sobre</a>
+							</li>
+							<li class="menu-item-search">
+								<a href="#"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
+								<form method="get" id="site-searchform" class="searchform" action="http://www.google.com/search" accept-charset="UTF-8" role="search">
+									<input type="search" name="q" autocomplete="on" placeholder="Pesquisar&hellip;">
+									<input type="hidden" name="sitesearch" value="https://blog.doseextra.com">
+
+								</form>
+							</li>
+						</ul>
+</nav>
+
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+
+  <main id="content" class="white-background" role="main">
+    <div class="container">
+        <div class="row">
+            <div class="podcast-head col sm-12 col-md-12">
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="background-image">
+                    <h2 class="single-title no-bottom">Produção de Vídeos No Linux - Parte 1</h2>
+                    <p class="post-meta"><span>1 de May de 2017 por <a href="/author/regis"> Regis Tomkiel</a></span></p>
+                    <p>Comece a aprender a editar vídeos no Linux com ferramentas gratuitas e de fácil instalação e configuração. Seja um profissional do audiovisual com Linux.</p>
+                    <img src="" width="100%" alt="Produção de Vídeos No Linux - Parte 1">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class=" margin-2"></div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 conteudo">
+                <p>Todo iniciante na carreira do audiovisual sempre se pergunta qual plataforma abraçar, quais softwares se especializar ou por onde começar. Muitos, incluindo este que escreve, começaram em plataformas proprietárias e restritivas, como o <a href="https://pt.wikipedia.org/wiki/MacOS" target="_blank" rel="noopener noreferrer">macOS da Apple</a>, ou em estações recheadas de softwares piratas no <a href="https://pt.wikipedia.org/wiki/Microsoft_Windows" target="_blank" rel="noopener noreferrer">Microsoft Windows</a>. Essa é uma realidade comum nesse mercado emergente e que ainda não é totalmente regulamentado, construído em volta de alguns preceitos conservadores, que tentam definir padrões de trabalho com base em &ldquo;softwares&rdquo; e não em tarefas.</p>
+
+<p>Por muito tempo, muitos produtores associavam uma boa produção, com softwares caros e com marcas consagradas. Não que softwares como <a href="https://pt.wikipedia.org/wiki/Final_Cut_Pro" target="_blank" rel="noopener noreferrer">Final Cut Pro</a>, <a href="http://www.avid.com/media-composer" target="_blank" rel="noopener noreferrer">Avid Media Composer</a> ou <a href="http://www.vegascreativesoftware.com/br/vegas-pro/" target="_blank" rel="noopener noreferrer">Vegas Pro</a> não sejam softwares importantes e que não possam ser utilizados como um workstation de vídeo, porém eles não são as únicas alternativas, pelo contrário, são apenas algumas das tantas opções existentes e profissionais. Hoje, o profissional que foca apenas em uma dessas plataformas está apenas deixando-se levar pelo comodismo e não acompanhando o mercado, sempre em evolução.
+<h3 style="text-align: center;">E no Linux?</h3>
+Quando comecei a usar GNU/Linux, lá por 2006, as coisas eram diferentes e poucos softwares eram portados ou desenvolvidos com foco em produção de video. Claro, alguns estúdios maiores, possuíam algumas ferramentas desenvolvidas exclusivamente para uso interno, como é o caso da <a href="http://www.diolinux.com.br/2015/03/renderman-linux-blender-free.html" target="_blank" rel="noopener noreferrer">Pixar</a>, que abandonou o <a href="https://pt.wikipedia.org/wiki/NEXTSTEP" target="_blank" rel="noopener noreferrer">NeXTStep</a>, depois o Mac OS, para trabalhar com soluções de renderização em servidores Linux. O primeiro software popular, foi o <a href="http://cinelerra.org/" target="_blank" rel="noopener noreferrer">Cinelerra</a>, recheado de recursos, era praticamente a única opção para quem se aventurasse no sistema de <a href="https://github.com/torvalds" target="_blank" rel="noopener noreferrer">Linus Torvalds</a>. Muito tempo de passou, o Cinelerra foi praticamente descontinuado e muitas opções surgiram, especialmente focadas em grandes produções &ldquo;hollywoodianas&rdquo;, mas que aos poucos foram adentrando no universo característico de pequenas produtoras, com nomes como <a href="https://kdenlive.org/" target="_blank" rel="noopener noreferrer">Kdenlive</a>(Open Source), <a href="https://www.lwks.com/" target="_blank" rel="noopener noreferrer">Lightworks</a>(proprietário), DaVinci Resolve(Proprietário), <a href="https://natron.fr/" target="_blank" rel="noopener noreferrer">Natron</a>(Open Source),<a href="https://www.blackmagicdesign.com/products/fusion" target="_blank" rel="noopener noreferrer"> BlackMagic Fusion 8</a>, dentre outros que estão surgindo ou sendo portados.
+<p style="text-align: center;"><strong>Editores populares</strong></p></p>
+
+<p><div class="owl-carousel owl-slider">
+<img src="//i.imgur.com/JISpqIS.jpg" alt="Editor de vídeos Kdenlive" />
+<img src="//i.imgur.com/ctZqSuB.jpg" alt="Blackmagic Fusion 8" />
+<img src="//i.imgur.com/UE8PaMk.jpg" alt="Blackmagic DaVinci Resolve" />
+<img src="//i.imgur.com/wLFU2Kw.jpg" alt="Editor de vídeo Natron" />
+</div>
+<div class="owl-carousel owl-slider"></div>
+<div class="owl-carousel owl-slider"></div>
+<div class="owl-carousel owl-slider"></div>
+<div class="owl-carousel owl-slider"></div>
+<strong><em>Este é o primeiro artigo de uma série semanal, sobre produção de vídeo em Linux. Os próximos serão mais focados nos processos de edição, incluindo exemplos e materiais de apoio</em>.</strong></p>
+
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="sep"></div>
+                <div class="fb-like" data-href="//facebook.com/doseextra" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                <div class="sep"></div>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Compartilhe nas suas redes sociais</h5>
+                        <p class="social-share no-bottom">
+                            <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.doseextra.com%2fproducao-de-videos-no-linux-parte-1%2f" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="//twitter.com/home?status=https%3a%2f%2fblog.doseextra.com%2fproducao-de-videos-no-linux-parte-1%2f" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="//plus.google.com/share?url=https%3a%2f%2fblog.doseextra.com%2fproducao-de-videos-no-linux-parte-1%2f" class="social-link" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a href="mailto:blog@doseextra.com" class="social-link" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="tags"><strong class="padding-bottom">Tags:</strong>edição de vídeo, filmmaker, linux, edição no linux, Software Livre, Software Livre produção, Produção de vídeo no Linux, Videomaker, Kdenlive, DaVinci, BlackMagic Design, Blender e Natron</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <div class="sep margin-2"></div>
+                <p>
+                    <a href="/author/regis" class="display-inline-block"><img src="https://blog.doseextra.com/img/author/Chefe-Apache-768x768.jpg" width="96" height="96" class="round" alt="Regis" - ZgotmplZ></a>
+                </p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Regis Tomkiel</h5>
+                        <p>Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.</p>
+                        <p class="social-share">
+                            <a href="//www.facebook.com/registomkiel" class="social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="//www.linkedin.com/in/regis-tomkiel/" class="social-link" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="" class="social-link"><i class="fa fa-google-plus"></i></a>
+                            <a href="//twitter.com/tomtomkiel" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="//instagram.com/registomkiel" class="social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Mais publicações do autor&hellip;</h5>
+                        <div class="owl-carousel owl-thumbs-3">
+                            
+                            <div class="thumb">
+                                <div class="photo">
+                                    <a href="/alternativa-gratis-ao-photoshop/">
+                                        <img src="//i.imgur.com/fV5h9GC.jpg" alt="Alternativas ao Photoshop">
+                                        <span class="info"><em class="arrow-right centered"></em></span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="thumb">
+                                <div class="photo">
+                                    <a href="/instalando-pacotes-snap-no-gentoo/">
+                                        <img src="//i.imgur.com/H1e5EFn.jpg" alt="Instalando pacotes snap no Gentoo">
+                                        <span class="info"><em class="arrow-right centered"></em></span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="thumb">
+                                <div class="photo">
+                                    <a href="/gerador-de-site/">
+                                        <img src="//i.imgur.com/UYOXpqi.jpg" alt="Gerador de site estático">
+                                        <span class="info"><em class="arrow-right centered"></em></span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="sep margin-2"></div>
+                <h5>Você pode gostar:</h5>
+                <div class="owl-carousel owl-thumbs-2">
+                    
+                    <div class="thumb dark-overlay">
+                        <div class="photo">
+                            <a href="/alternativa-gratis-ao-photoshop/">
+                                <img src="//i.imgur.com/fV5h9GC.jpg" alt="Alternativas ao Photoshop">
+                                <span class="info"><span class="big-excerpt">Alternativas ao Photoshop</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="thumb dark-overlay">
+                        <div class="photo">
+                            <a href="/instalando-pacotes-snap-no-gentoo/">
+                                <img src="//i.imgur.com/H1e5EFn.jpg" alt="Instalando pacotes snap no Gentoo">
+                                <span class="info"><span class="big-excerpt">Instalando pacotes snap no Gentoo</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="thumb dark-overlay">
+                        <div class="photo">
+                            <a href="/gerador-de-site/">
+                                <img src="//i.imgur.com/UYOXpqi.jpg" alt="Gerador de site estático">
+                                <span class="info"><span class="big-excerpt">Gerador de site estático</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="thumb dark-overlay">
+                        <div class="photo">
+                            <a href="/o-que-sao-ubuntu-snaps/">
+                                <img src="//i.imgur.com/OmZVQAL.jpg" alt="O que são Ubuntu Snaps?">
+                                <span class="info"><span class="big-excerpt">O que são Ubuntu Snaps?</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="sep margin-2"></div>
+
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'zinedoseextra';
+                    var disqus_developer = 0;
+                    (function() {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Por favor habilite o JavaScript em <a href="https://disqus.com/?ref_noscript" rel="nofollow">Comentários Disqus.</a></noscript>
+                <div class="margin-6"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <p>
+  <a href="http://doseextra.com" class="mini-logo"><img src="https://blog.doseextra.com/img/site/logo.png" width="90" height="33" alt="Dose Extra Multimídia - Bento Gonçalves"></a>
+</p>
+
+    <p>&copy; 2017 Dose Extra Multimídia.</p>
+    <p>
+  <a href="http://facebook.com/doseextra" class="social-link"><i class="fa fa-facebook"></i></a>
+  <a href="http://twitter.com/sitedoseextra" class="social-link"><i class="fa fa-twitter"></i></a>
+  <a href="https://feeds.feedburner.com/DoseExtra" class="social-link"><i class="fa fa-podcast"></i></a>
+  <a href="http://instagram.com/doseextra" class="social-link"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.youtube.com/channel/UC5Zz7kecrmtYZSKCS79_-Wg?view_as=subscriber" class="social-link"><i class="fa fa-youtube"></i></a>
+</p>
+
+  </div>
+</footer>
+
+
+<script defer src="https://blog.doseextra.com/dist/js/slides.min.js"></script>
+
+ 
+   
+</body>
+</html>

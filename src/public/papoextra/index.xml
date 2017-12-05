@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Dose Extra</title>
+    <atom:link href="https://blog.doseextra.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.doseextra.com</link>
+    <lastBuildDate>Wed, 14 Sep 2016 00:00:00 &#43;0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>pt-br</language>
+    <copyright>2017 Dose Extra</copyright>
+    <itunes:subtitle>Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha.</itunes:subtitle>
+    <itunes:author>Regis Tomkiel</itunes:author>
+    <itunes:summary>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia..</itunes:summary>
+    <description>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia.</description>
+    <itunes:owner>
+    <itunes:name>Dose Extra</itunes:name>
+    <itunes:email>regis@doseextra.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://blog.doseextra.com/img/podcast/capadoseextra.png" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" />
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    
+    <item>
+      <title>Papo Extra 01 - Nirvana</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+A banda Nirvana Nesta primeira edição do Papo Extra, Régis Tomkiel e Rafael, falam sobre a importância da banda Nirvana no cenário musical dos anos 90 e na atualidade.
+Tocando alguns dos maiores clássicos, ao melhor estilo &ldquo;radio Rock &lsquo;n&rsquo; Roll&rdquo;, ambos comentam sobre a trajetória, curiosidades e discografia.</itunes:summary>
+      <description>Conheça o mais novo projeto Dose Extra, o Papo Extra. No primeiro episódio, falaremos sobre umas das maiores bandas da história, o Nirvana!</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-01-nirvana/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+    <item>
+      <title>Papo Extra 02 - Conhecendo a Cultura Viking</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+A cultura viking Embarque junto com Régis Tomkiel, Rafael e Danilo, navegando pelos mares desconhecidos da cultura escandinava. Um episódio abordando discussões sobre o que sabemos e devemos saber, revelando mistério e desconstruindo ideias. Tudo isso, ao som das boas e consagradas bandas de Folk Viking da atualidade.</itunes:summary>
+      <description>Vamos conhecer melhor a cultura Viking, comparando os quadrinhos com a história.</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-02-conhecendo-a-cultura-viking/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+    <item>
+      <title>Papo Extra 04 - Cultura Brasileira</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+Está no ar mais um Papo Extra! Dessa vez, os hosts Régis e Danilo, têm a honra de receber em seus domínios podcastais, o rei Swingueiro do Funk (Lucas de Lucca), o Professor Gremista de História (Marcelo) e também o dono do microfone mais &ldquo;ruidoso&rdquo; da Podosfera, Douglas!</itunes:summary>
+      <description>Vamos falar de cultura brasileira e as riqueza de nosso país!</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-04-cultura-brasileira/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+    <item>
+      <title>Papo Extra 07 - Escotismo</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+No ar mais um Papo Extra! Dessa vez, iremos falar sobre o escotismo e como é ser um escotista.
+Nossos convidados, trouxeram toda sua experiência para o Papo Extra, apresentando um &ldquo;mundo&rdquo;, onde o trabalho em equipe, são essenciais para o funcionamento do grupo. Iremos aprender a importância da união.</itunes:summary>
+      <description>Nossos convidados vão dar uma aula sobre o que é escotismo e sua importância.</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-07-escotismo/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+    <item>
+      <title>Papo Extra 08 - Pocket Music 02</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+Mais um podcast no ar! Dessa vez vamos conhecer algumas bandas de Folk Metal, Viking Metal, Black Viking ou ainda Folk Vinking. Serão apresentadas quatro bandas, duas por conta do convidado [Rafael]() e duas por conta do [Régis]()! Não perca esse episódio fantástico!
+Conheça um pouco mais: Folk Metal é uma fusão entre o Heavy Metal e as músicas folclóricas tradicionais, originada na Europa nos anos 90.</itunes:summary>
+      <description>Bora escutar uma lista das melhores bandas de Folk Viking da atualidade!</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-08-pocket-music-02/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+    <item>
+      <title>Papo Extra 3 - Covers Famosos</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>Das antigas&hellip;
+Este é um podcast originalmente postado no antigo site Dose Extra e muita coisa mudou de lá para cá. Ainda bem :)
+Sabe quando uma música é fo#@, mas aí você conhece outra versão, tão boa quanto?
+Pois bem, nesse episódio especial, Régis e Danilo fazem um top 10 regravações(covers) gravadas por bandas famosas. Uma verdadeira lista de sucessos.
+Nosso top 10: 10° - Live and let die - Guns n&rsquo; Roses</itunes:summary>
+      <description>Versões de músicas famosas feitas por outras bandas famosas. Confira nosso TOP10.</description>
+      <enclosure url="https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3" length="1.77209344e&#43;07" type="audio/mpeg" />
+      <guid>https://ia801508.us.archive.org/0/items/Podcast02LucasdeLucca/Podcast02LucasdeLucca.mp3</guid>
+      <link>https://blog.doseextra.com/papoextra/papo-extra-03-covers-famosos/</link>
+      <pubDate>Wed, 14 Sep 2016 00:00:00 +0000 </pubDate>
+      <itunes:duration>0:35:36</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Dose Extra</title>
+    <atom:link href="https://blog.doseextra.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.doseextra.com</link>
+    <lastBuildDate>Wed, 7 Jun 2017 00:00:00 &#43;0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>pt-br</language>
+    <copyright>2017 Dose Extra</copyright>
+    <itunes:subtitle>Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha.</itunes:subtitle>
+    <itunes:author>Regis Tomkiel</itunes:author>
+    <itunes:summary>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia..</itunes:summary>
+    <description>Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia.</description>
+    <itunes:owner>
+    <itunes:name>Dose Extra</itunes:name>
+    <itunes:email>regis@doseextra.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://blog.doseextra.com/img/podcast/capadoseextra.png" />
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" />
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    
+
+    <item>
+      <title>Alternativas Ao Photoshop</title>
+      <itunes:author>Regis Tomkiel</itunes:author>
+      <itunes:summary>O Adobe Photoshop é conhecido por ser uma ferramenta de edição de imagens bastante completa e versátil. Não é segredo para ninguém, que se trata do software mais conhecido e difundido de sua categoria. Mas seria ele a solução ideal para todas as pessoas?
+A resposta é não.
+Alternativas grátis O objetivo desse post não é menosprezar o Adobe Photoshop, mas apresentar algumas alternativas interessantes, especialmente para aqueles que, não podendo pagar o valor de uma licença, precisam recorrer à meios nada legais.</itunes:summary>
+      <description>Confira algumas dicas de softwares alternativos ao Adobe Photoshop</description>
+      <enclosure url="" length="" type="audio/mpeg" />
+      <guid></guid>
+      <link>https://blog.doseextra.com/alternativa-gratis-ao-photoshop/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000 </pubDate>
+      <itunes:duration></itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+    </item>
+    
+
+
+  </channel>
+</rss>

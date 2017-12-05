@@ -1,5 +1,5 @@
 ---
-title: "Dose Extra #03 - Carreira profissional com Software Livre e Tchelinux"
+title: "Dose Extra #03 - Carreira profissional com Software Livre"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
