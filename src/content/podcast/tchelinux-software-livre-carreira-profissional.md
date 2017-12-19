@@ -3,21 +3,21 @@ title: "Dose Extra #03 - Carreira profissional com Software Livre"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: podcast
 id: podcast
-image: //i.imgur.com/MnAuz2m.jpg
-ImagePost: //i.imgur.com/GIzESbJ.jpg
+image: https://i.imgur.com/MnAuz2m.jpg
+ImagePost: https://i.imgur.com/GIzESbJ.jpg
 date: 2017-10-09
 description: Trabalhar com Software Livre? A história do Tchelinux no RS? Ouça a mesa de conversa gravada em Bento Gonçalves.
 categories:
-  - Podcast
+  - Trabalho
   - Software Livre
   - Tchelinux
 tags:

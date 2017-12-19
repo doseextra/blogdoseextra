@@ -4,15 +4,15 @@ author: Bruno
 authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
-authorFacebook: //www.facebook.com/profile.php?id=100004277
+authorFacebook: https://www.facebook.com/profile.php?id=100004277
 authorTwitter:
-authorInstagram: //www.instagram.com/brunu_nascimento/
+authorInstagram: https://www.instagram.com/brunu_nascimento/
 authorEmail: bruno@doseextra.com
-authorLinkedin: //www.linkedin.com/in/bruno-nascimento-5b0980138/
+authorLinkedin: https://www.linkedin.com/in/bruno-nascimento-5b0980138/
 authorDescription: Estudante de Publicidade e Propaganda; Redator e Fotógrafo em Dose Extra Multimídia; Escritor, Podcaster e Gladiador Dourado em Dose Extra Blog.
 type: post
 id: revista
-image: //i.imgur.com/azYbYF9.jpg
+image: https://i.imgur.com/azYbYF9.jpg
 ImagePost:
 date: 2017-04-28
 description: Travis tinha um plano para o seu fim, talvez considerasse essa uma única e última contribuição para a cidade, dentro de sua própria alienação e miséria humana.

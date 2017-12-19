@@ -4,23 +4,23 @@ author: Bruno
 authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
-authorFacebook: //www.facebook.com/profile.php?id=100004277
+authorFacebook: https://www.facebook.com/profile.php?id=100004277
 authorTwitter:
-authorInstagram: //www.instagram.com/brunu_nascimento/
+authorInstagram: https://www.instagram.com/brunu_nascimento/
 authorEmail: bruno@doseextra.com
-authorLinkedin: //www.linkedin.com/in/bruno-nascimento-5b0980138/
+authorLinkedin: https://www.linkedin.com/in/bruno-nascimento-5b0980138/
 authorDescription: Estudante de Publicidade e Propaganda; Redator e Fotógrafo em Dose Extra Multimídia; Escritor, Podcaster e Gladiador Dourado em Dose Extra Blog.
 type: post
 id: revista
-image: //i.imgur.com/hFr58iK.jpg
-ImagePost: //i.imgur.com/N6Df2QD.jpg
+image: https://i.imgur.com/hFr58iK.jpg
+ImagePost: https://i.imgur.com/N6Df2QD.jpg
 date: 2017-05-27
 description: Com site e rede social profissionais é possível conquistar o mercado. A Dose Extra oferece o desenvolvimento de mídias digitais que traz resultado.
 categories:
   - Comunicacao
   - Artigos
   - Marketing
-  - Mídias Digitais
+  - Midias Sociais
 tags:
   - acessos
   - buscas

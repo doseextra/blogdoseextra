@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <title>{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.Description}}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end}}</title>
@@ -6,8 +5,8 @@
 <base href="{{ .Site.BaseURL }}"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 {{ if .RSSLink }}
-<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
-<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
+<link href="{{ .Site.Params.FeedBlog }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+<link href="{{ .Site.Params.FeedBlog }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
 {{ end }}
 <meta name="robots" content="all,follow"/>
 <meta name="googlebot" content="index,follow,snippet,archive"/>
@@ -23,6 +22,7 @@
 {{ if isset .Params "tags" }}<meta property="article:tag" content="{{ delimit .Params.tags ", "}}">{{ end }}
 <meta property="fb:admins" content="100000441045918,100001404718783"/>
 <meta property="fb:app_id" content="298390197338536"/>
+<meta property="fb:pages" content="1625905931054179" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.description}}{{ else }}{{if .Param "description"}}{{ .Param "description" }}{{else}}{{ .Summary }}{{end}}{{ end }}" />
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - {{ .Site.Params.SiteName}}{{ else }}{{ .Title }} - {{ .Site.Params.SiteName }}{{ end}}" />

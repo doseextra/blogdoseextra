@@ -1,7 +1,8 @@
----
-title: Papo Extra
-type: page
-image:
-excerpt:
-author: "Phalo"
----
++++
+title =  "Papo Extra"
+type = "page"
+image = ""
+excerpt = ""
+author = "Phalo"
+
++++

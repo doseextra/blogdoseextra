@@ -4,10 +4,10 @@ author: Michael
 authorName: Michael de Toni
 authorImg: /img/author/Rapper-Cristao-768x768.jpg
 authorGp: #
-authorFacebook: //www.facebook.com/michael.a.detoni
-authorInstagram: //www.instagram.com/michael.adt/
-authorTwitter: //twitter.com/sitedoseextra
-authorLinkedin: //www.linkedin.com/company/dose-extra-multim%C3%ADdia/
+authorFacebook: https://www.facebook.com/michael.a.detoni
+authorInstagram: https://www.instagram.com/michael.adt/
+authorTwitter: https://twitter.com/sitedoseextra
+authorLinkedin: https://www.linkedin.com/company/dose-extra-multim%C3%ADdia/
 authorEmail: contato@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, líder de projetos de mídias sociais, aficionado por Pokémon Stadium e Dragon Ball.
 type: post
@@ -19,7 +19,7 @@ description: Entenda a importância de uma fanpage para sua empresa.
 categories:
   - Facebook
   - Comunicacao
-  - Mídias Digitais
+  - Midias Sociais
 tags:
   - redes sociais
   - facebook

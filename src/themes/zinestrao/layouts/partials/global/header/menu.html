@@ -1,37 +1,29 @@
 <nav>
   <ul>
-							<li class="current-menu-item"><a href="{{ .Site.BaseURL }}">Início</a></li>
-							<li class="menu-item-has-children" >
-                <a href="{{ .Site.BaseURL }}/podcast/">Podcasts</a>
-              <ul>
-                <li><a href="{{ .Site.BaseURL }}/categories/software-livre">Software livre</a></li>
-								<li><a href="{{ .Site.BaseURL }}/categories/multimidia">Multimídia</a></li>
-								<li><a href="{{ .Site.BaseURL }}/diversidades">Diversidades</a></li>
-                <li><a href="{{ .Site.BaseURL }}/papoextra/">Papo Extra</a></li>
-              </ul>
-              </li>
-							<li class="menu-item-has-children">
-								<a href="{{ .Site.BaseURL }}/artigos/">Artigos</a>
-								<ul>
-                  <li><a href="{{ .Site.BaseURL }}/categories/web/">Desevolvimento web</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/mídias-digitais/">Mídias Digitais</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/design/">Design</a></li>
-									<li><a href="{{ .Site.BaseURL }}/categories/video/">Video e Fotografia</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/comunicacao/">Comunicação</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/artigos/">Artigos</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/tutoriais/">Tutoriais</a></li>
-                  <li><a href="{{ .Site.BaseURL }}/categories/resenha/">Resenhas</a></li>
-								</ul>
-							</li>
-							<li class="menu-item-has-children">
-								<a href="{{ .Site.BaseURL }}/sobre/">Sobre</a>
-							</li>
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+
+			{{ if .HasChildren }}
+			<li class="menu-item-has-children {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} current-menu-item {{end}}">
+				<a href={{ .URL | absLangURL }}>{{ .Name }}</a>
+			<ul>
+			{{ range .Children }}
+					<li class="menu-item-has-children {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} current-menu-item{{end}}"><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+			{{ end }}
+			</ul>
+			</li>
+
+			{{ else }}
+			<li {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} class="current-menu-item"{{end}}><a href={{ .URL | absLangURL }}>{{ .Name }}</a></li>
+			{{ end }}
+			
+			{{ end }}
+
 							<li class="menu-item-search">
 								<a href="#"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
 								<form method="get" id="site-searchform" class="searchform" action="http://www.google.com/search" accept-charset="UTF-8" role="search">
 									<input type="search" name="q" autocomplete="on" placeholder="Pesquisar&hellip;">
 									<input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}">
-
 								</form>
 							</li>
 						</ul>

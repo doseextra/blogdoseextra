@@ -4,20 +4,21 @@ author: Bruno
 authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
-authorFacebook: //www.facebook.com/profile.php?id=100004277
+authorFacebook: https://www.facebook.com/profile.php?id=100004277
 authorTwitter:
-authorInstagram: //www.instagram.com/brunu_nascimento/
+authorInstagram: https://www.instagram.com/brunu_nascimento/
 authorEmail: bruno@doseextra.com
-authorLinkedin: //www.linkedin.com/in/bruno-nascimento-5b0980138/
+authorLinkedin: https://www.linkedin.com/in/bruno-nascimento-5b0980138/
 authorDescription: Estudante de Publicidade e Propaganda; Redator e Fotógrafo em Dose Extra Multimídia; Escritor, Podcaster e Gladiador Dourado em Dose Extra Blog.
 type: post
 id: revista
-image: //i.imgur.com/yfL5xME.jpg
-ImagePost: //i.imgur.com/ZDAkIkr.jpg
+image: https://i.imgur.com/yfL5xME.jpg
+ImagePost: https://i.imgur.com/ZDAkIkr.jpg
 date: 2017-05-08
 description: Seria hipocrisia dizer que a vida seria melhor sem a internet ou as redes sociais, afinal sou uma usuária de ambas e estou postando meu texto em um ambiente virtual, mas é necessário o equilíbrio.
 categories:
   - Comunicacao
+  - Midias Sociais
 tags:
   - Comunicação
   - redes sociais

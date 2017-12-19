@@ -3,17 +3,17 @@ title: "Papo Extra 3 - Covers famosos"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: papoextra
 id: podcast
-image: //i.imgur.com/z8i2ZzZ.jpg
-ImagePost: //i.imgur.com/bkxx1Kd.jpg
+image: https://i.imgur.com/z8i2ZzZ.jpg
+ImagePost: https://i.imgur.com/bkxx1Kd.jpg
 date: 2016-09-14
 description: Versões de músicas famosas feitas por outras bandas famosas. Confira nosso TOP10.
 categories:

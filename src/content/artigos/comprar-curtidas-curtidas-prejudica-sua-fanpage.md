@@ -3,17 +3,17 @@ title: "Comprar Curtidas Prejudica sua Fanpage"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/NyuKi8V.png
-ImagePost: //i.imgur.com/kNnUXjk.png
+image: https://i.imgur.com/NyuKi8V.png
+ImagePost: https://i.imgur.com/kNnUXjk.png
 description: Comprar curtidas para sua página no Facebook? Saiba como isso pode ser prejudicial para sua marca, sua reputação e como pode ser péssimo para os negócios.
 date: 2017-05-30
 categories:
@@ -27,7 +27,7 @@ tags:
   - Social Media
   - Aumentar curtidas
 ---
-É o que todo mundo deseja quando cria uma página no Facebook, seja para uso pessoal, diversão ou representação da marca em meios sociais. Tem-se uma percepção errada de que o que importa são os números e não o que significam. Assim como foi no passado com a "<a href="https://pt.wikipedia.org/wiki/Bolha_da_Internet"><em>Bolha da Internet</em></a>", essas estratégias não orgânicas podem significar o fracasso de muitas empresas.
+É o que todo mundo deseja quando cria uma página no Facebook, seja para uso pessoal, diversão ou representação da marca em meios sociais. Tem-se uma percepção errada de que o que importa são os números e não o que significam. Assim como foi no passado com a "<a href="https:https://pt.wikipedia.org/wiki/Bolha_da_Internet"><em>Bolha da Internet</em></a>", essas estratégias não orgânicas podem significar o fracasso de muitas empresas.
 É importante avisar que não trata-se de uma opinião pessoal isolada ou puro achismo. É muito fácil identificar as falhas desse sistema, simplesmente acessando a página e verificando os posts mais recentes. Através de relatórios embasados, gerados na própria plataforma, podemos fortalecer ainda mais o argumento.
 ### <strong>O funcionamento do Facebook</strong>
 
@@ -36,7 +36,7 @@ Quando um determinado conteúdo é postado, acredita-se que apenas 1 à 10% dos 
 O assunto é tão amplo, que é melhor escrevermos um post dedicado ao assunto.
 ### <strong>E como funciona a compra de fãs no Facebook?</strong>
 
-<img class="aligncenter size-full wp-image-317" src="https://blog.doseextra.com/wp-content/uploads/2017/05/curtidas_errado.png" alt="Comprar Curtidas prejudica sua fan page" width="50%" />
+<img class="aligncenter size-full wp-image-317" src="http://www.eleitoronline.com.br/wp-content/uploads/2015/08/comprar-fas-no-facebook.jpg" alt="Comprar Curtidas prejudica sua fan page" width="50%" />
 É fácil encontrar anúncios de venda pela internet.<br>
 
 <strong>Comprar curtidas</strong> para páginas, publicações ou até mesmo avaliações não é algo novo. É prometido abertamente nos quatro cantos da internet. Existem até mesmo alternativas gratuitas, com o que chamamos de "troca de curtidas", mas que não possui o resultado imediato da compra.

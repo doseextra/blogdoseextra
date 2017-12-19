@@ -3,23 +3,24 @@ title: "Dose Extra #04 - Web Estática é o futuro?"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: podcast
 id: podcast
-image: //i.imgur.com/gwcAbrv.jpg
-ImagePost: //i.imgur.com/kUgPIXb.jpg
+image: https://i.imgur.com/gwcAbrv.jpg
+ImagePost: https://i.imgur.com/kUgPIXb.jpg
 date: 2017-12-04
 description: Saiba mais sobre Web Estática. Entenda as vantagens, desvantagens e características dessa, que para muitos, é a nova Web.
 categories:
-  - Podcast
+  - Web Estatica
   - Software Livre
   - Web
+  - hugo
 tags:
   - hugo
   - desenvolvimento web

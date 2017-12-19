@@ -41,7 +41,7 @@
             </p>
           </div>
           <div class="col-sm-6">
-            <p class="tags"><strong class="padding-bottom">Tags:</strong> {{ delimit .Params.tags ", " " e " }}</p>
+            <p class="tags"><strong class="padding-bottom">Tags:</strong> {{ range .Params.Tags }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
           </div>
         </div>
         <div class="clear"></div>
@@ -50,10 +50,11 @@
 
         <h5>Outros podcasts</h5>
         <div class="owl-carousel owl-thumbs-2">
-          {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
+          {{ $PostType := .Params.Type }}
+          {{ range first 4 ( where ( where .Site.Pages.ByDate.Reverse "Type" $PostType ) "Permalink" "!=" .Permalink ) }}
           <div class="thumb dark-overlay">
             <div class="photo">
-              <a href="{{ .RelPermalink }}">
+              <a href="{{ .Permalink }}">
                 <img src="{{ with .Params.image }}{{ . }}{{ else }}images/missing-img.png{{ end }}" alt="Imagem de destaque do post {{ .Title }}">
                 <span class="info"><span class="big-excerpt">{{ .Title }}</span></span>
               </a>

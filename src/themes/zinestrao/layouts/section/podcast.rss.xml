@@ -34,7 +34,7 @@
     <item>
       <title>{{ title .Title }}</title>
       <itunes:author>{{ .Params.AuthorName }}</itunes:author>
-    
+
       <description>{{ .Description }}</description>
       <enclosure url="{{ .Params.PodcastMp3 }}" length="{{ .Params.PodcastBytes }}" type="audio/mpeg" />
       <guid>{{ .Params.PodcastMp3 }}</guid>

@@ -3,17 +3,17 @@ title: "O que é podcast?"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/K463rok.jpg
-ImagePost: //i.imgur.com/zoPjVu8.jpg
+image: https://i.imgur.com/K463rok.jpg
+ImagePost: https://i.imgur.com/zoPjVu8.jpg
 description: Popularizado com o advento dos iPods da americana Apple, podcast é uma nova possibilidade para o consumo de conteúdo em massa.
 date: 2017-04-27
 categories:

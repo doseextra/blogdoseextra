@@ -8,13 +8,14 @@ theme = "zinestrao"
   siteName = "Blog Dose Extra"
   description = "Cultura, produção multimídia, design e desenvolvimento web na Serra Gaúcha."
   twitter = "@sitedoseextra"
-  TwitterURL = "//twitter.com/sitedoseextra"
-  facebook = "//facebook.com/doseextra"
+  TwitterURL = "https://twitter.com/sitedoseextra"
+  facebook = "http://facebook.com/doseextra"
   email = "blog@doseextra.com"
-  telegram = "//t.me/joinchat/AAAAAAfihmNSCdp0GZ1a_g"
-  messenger = "//www.messenger.com/t/1625905931054179"
-  instagram = "//instagram.com/doseextra"
+  telegram = "https://t.me/joinchat/AAAAAAfihmNSCdp0GZ1a_g"
+  messenger = "https://www.messenger.com/t/1625905931054179"
+  instagram = "https://instagram.com/doseextra"
   gplus = ""
+  feedBlog = "https://feeds.feedburner.com/BlogDoseExtra"
   ItunesSum = "Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia."
   ItunesDes = "Desenvolvimento web, design, midias sociais, Software Livre e bastidores de uma produtora multimídia."
   ItunesImg = "img/podcast/capadoseextra.png"
@@ -29,3 +30,128 @@ theme = "zinestrao"
   tag = "tags"
   category = "categories"
   author = "author"
+
+
+[[menu.main]]
+  name = "Podcast"
+  identifier = "podcasts"
+  weight = -90
+  url = "/podcast/"
+
+[[menu.main]]
+  name = "artigos"
+  identifier = "artigos"
+  weight = -80
+  url = "/artigos/"
+
+[[menu.main]]
+  name = "Dev Web"
+  identifier = "deve web"
+  parent = "artigos"
+  weight = 3
+  url = "/categories/web"
+
+
+[[menu.main]]
+  name = "Mídias Digitais"
+  identifier = "midias"
+  parent = "artigos"
+  weight = 6
+  url = "/categories/mídias-digitais/"
+
+
+[[menu.main]]
+  name = "Design"
+  identifier = "design"
+  parent = "artigos"
+  weight = 6
+  url = "/categories/design/"
+
+
+[[menu.main]]
+  name = "SEO"
+  identifier = "seo"
+  parent = "artigos"
+  weight = 2
+  url = "/categories/seo/"
+
+[[menu.main]]
+  name = "Fotografia"
+  identifier = "fotografia"
+  parent = "artigos"
+  weight = 5
+  url = "/categories/fotografia/"
+
+[[menu.main]]
+  name = "Redes Sociais"
+  identifier = "redes"
+  parent = "artigos"
+  weight = 4
+  url = "/categories/midias-sociais/"
+
+[[menu.main]]
+  name = "Edição de vídeo"
+  identifier = "video"
+  parent = "artigos"
+  weight = 1
+  url = "/categories/video/"
+
+[[menu.main]]
+  name = "Literatura"
+  weight = 4
+  identifier = "literatura"
+  parent = "podcasts"
+  url = "/categories/literatura"
+
+[[menu.main]]
+  name = "Dev Web"
+  weight = 1
+  identifier = "web"
+  parent = "podcasts"
+  url = "/categories/web/"
+
+[[menu.main]]
+  name = "Software Livre"
+  weight = 3
+  identifier = "dose extra"
+  parent = "podcasts"
+  url = "/categories/software-livre"
+
+[[menu.main]]
+  name = "hugo"
+  weight = 4
+  identifier = "hugo"
+  parent = "podcasts"
+  url = "/categories/hugo"
+
+[[menu.main]]
+  name = "web estática"
+  weight = "5"
+  parent = "podcasts"
+  url = "/categories/web-estatica"
+
+[[menu.main]]
+  name = "Wordpress"
+  weight = 2 
+  identifier = "wordpress"
+  parent = "podcasts"
+  url = "/categories/wordpress"
+
+
+[[menu.main]]
+  name = "Papo Extra"
+  identifier = "papoextra"
+  weight = -70
+  url = "/papoextra/"
+
+
+threshold = 80
+includerNewer = false
+
+toLower = false
+
+[[related.indices]]
+name  = "author"
+toLower = true
+weight = 30
+

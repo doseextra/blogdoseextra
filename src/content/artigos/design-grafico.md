@@ -4,16 +4,16 @@ author: Bruno
 authorName: Bruno Nascimento
 authorImg: /img/author/brunopb-768x768.jpg
 authorGp:
-authorFacebook: //www.facebook.com/profile.php?id=100004277
+authorFacebook: https://www.facebook.com/profile.php?id=100004277
 authorTwitter:
-authorInstagram: //www.instagram.com/brunu_nascimento/
+authorInstagram: https://www.instagram.com/brunu_nascimento/
 authorEmail: bruno@doseextra.com
-authorLinkedin: //www.linkedin.com/in/bruno-nascimento-5b0980138/
+authorLinkedin: https://www.linkedin.com/in/bruno-nascimento-5b0980138/
 authorDescription: Estudante de Publicidade e Propaganda; Redator e Fotógrafo em Dose Extra Multimídia; Escritor, Podcaster e Gladiador Dourado em Dose Extra Blog.
 type: post
 id: revista
-image: //i.imgur.com/duq0h0Cg.jpg
-ImagePost: //i.imgur.com/32eukhj.jpg
+image: https://i.imgur.com/duq0h0Cg.jpg
+ImagePost: https://i.imgur.com/32eukhj.jpg
 date: 2017-05-27
 description: Entenda de forma objetiva qual a importância do Design Gráfico para o mercado. Entenda os cuidados necessários com a identidade visual, marca e papelaria.
 categories:

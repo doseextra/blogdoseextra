@@ -3,17 +3,17 @@ title: "Como Vender Seu Carro Usado de Forma Épica"
 author: Regis
 authorName: Regis Tomkiel
 authorImg: /img/author/Chefe-Apache-768x768.jpg
-authorGp: //plus.google.com/+RegisTomkiel
-authorFacebook: //www.facebook.com/registomkiel
-authorInstagram: //instagram.com/registomkiel
-authorTwitter: //twitter.com/tomtomkiel
-authorLinkedin: //www.linkedin.com/in/regis-tomkiel/
+authorGp: https://plus.google.com/+RegisTomkiel
+authorFacebook: https://www.facebook.com/registomkiel
+authorInstagram: https://instagram.com/registomkiel
+authorTwitter: https://twitter.com/tomtomkiel
+authorLinkedin: https://www.linkedin.com/in/regis-tomkiel/
 authorEmail: regis@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, produtor audiovisual, desenvolvedor web, podcaster, escritor e quando sobra tempo, coleciona videogames e filmes independentes.
 type: post
 id: revista
-image: //i.imgur.com/2L6CZb5.png
-ImagePost: //i.imgur.com/qMNaERW.jpg
+image: https://i.imgur.com/2L6CZb5.png
+ImagePost: https://i.imgur.com/qMNaERW.jpg
 description: O letão Eugene Romanovsky resolveu fazer um vídeo épico para vender seu carro usado e conseguiu milhões de propostas de compra.
 date: 2017-05-10
 categories:
@@ -46,5 +46,5 @@ O que podemos observar como produtores, é uma boa mistura entre a sonorização
 
 Para saber mais sobre produção de vídeo, continue acompanhando o Zine Dose Extra e não perca nossa série de artigos sobre produção de vídeo.
 
-<a href="https://zine.doseextra.com/revista/producao-de-videos-no-linux-parte-1/" target="_blank" rel="noopener noreferrer">Produção de video em Linux - Parte 1</a>
-<a href="https://zine.doseextra.com/revista/producao-de-videos-no-linux-parte-2/" target="_blank" rel="noopener noreferrer">Produção de video em Linux - Parte 2</a>
+<a href="https://blog.doseextra.com/revista/producao-de-videos-no-linux-parte-1/" target="_blank" rel="noopener noreferrer">Produção de video em Linux - Parte 1</a>
+<a href="https://blog.doseextra.com/revista/producao-de-videos-no-linux-parte-2/" target="_blank" rel="noopener noreferrer">Produção de video em Linux - Parte 2</a>

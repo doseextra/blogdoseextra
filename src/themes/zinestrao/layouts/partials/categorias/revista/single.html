@@ -34,7 +34,7 @@
                         </p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="tags"><strong class="padding-bottom">Tags:</strong>{{ delimit .Params.tags ", " " e " }}</p>
+                        <p class="tags"><strong class="padding-bottom">Tags:</strong> {{ range .Params.Tags }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -58,7 +58,10 @@
                     <div class="col-sm-6">
                         <h5>Mais publicações do autor&hellip;</h5>
                         <div class="owl-carousel owl-thumbs-3">
-                            {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.categories" "intersect" .Params.categories ) "Permalink" "!=" .Permalink ) }}
+                        
+                    {{ $related := .Site.RegularPages.Related . | first 10 }}
+                    {{ with $related }}
+                    {{ range .}}
                             <div class="thumb">
                                 <div class="photo">
                                     <a href="{{ .RelPermalink }}">
@@ -67,7 +70,8 @@
                                     </a>
                                 </div>
                             </div>
-                            {{ end }}
+                    {{ end }}
+                    {{ end }}
                         </div>
                     </div>
                 </div>
