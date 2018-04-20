@@ -20,7 +20,8 @@ h6.heading:after {
 }
 
 .centralizado {
-    text-align: center!important
+    text-align: center!important;
+    padding-top: 3%
 }
 
 h6.heading span,
@@ -1322,8 +1323,7 @@ img.round {
 
 .thumb.featured .info {
     display: block;
-    visibility: visible;
-
+    visibility: visible
 }
 
 .thumb.featured .info .big-title {
@@ -1389,7 +1389,7 @@ img.round {
 
 .container-boxes,
 .container-masonry {
-    padding-top: 15px
+    padding-top: 12%
 }
 
 .container-masonry .box {
@@ -1912,9 +1912,13 @@ img.round {
 }
 
 #top {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    background-color: #fff
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #fff;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2)
 }
 
 .site-title {
@@ -2643,8 +2647,8 @@ img.round {
 
 @media (min-width:480px) {
     #top {
-        padding-top: 2em;
-        padding-bottom: 2em
+        padding-top: 1em;
+        padding-bottom: 1em
     }
     #site-menu ul {
         margin-top: 2em
@@ -2877,8 +2881,8 @@ img.round {
         margin-left: 100%
     }
     #top {
-        padding-top: 2.5em;
-        padding-bottom: 2.5em
+        padding-top: 1em;
+        padding-bottom: 1em
     }
     #top .inner {
         display: table;
@@ -2988,7 +2992,7 @@ img.round {
     }
     #site-menu li.menu-item-has-children li a {
         padding: .5em 1em;
-        margin: 0;
+        margin: 0
     }
     #site-menu .menu-item-search a {
         display: inline-block;
@@ -3190,7 +3194,7 @@ img.round {
     }
     .post-box.horizontal .extra-info {
         float: left;
-        padding: 5px 0px 0px 0px;
+        padding: 5px 0 0;
         width: 50%
     }
     .post-box.vertical .extra-info {
@@ -3420,8 +3424,8 @@ img.round {
         margin-left: 100%
     }
     #top {
-        padding-top: 3em;
-        padding-bottom: 3em
+        padding-top: 1em;
+        padding-bottom: 1em
     }
     #site-menu a {
         padding-left: 1em;
@@ -3447,7 +3451,7 @@ img.round {
         padding: 5em 0
     }
     .container-masonry {
-        padding-top: 25px
+        padding-top: 6%
     }
     .container-boxes {
         padding-top: 40px
@@ -3456,7 +3460,7 @@ img.round {
         padding: 60px 30px
     }
     .post-box.horizontal .extra-info {
-        padding: 15px 0px 0px 0px
+        padding: 15px 0 0
     }
     .post-box.vertical .extra-info {
         padding: 30px
@@ -3720,7 +3724,7 @@ img.round {
         width: 13em
     }
     .container-masonry {
-        padding-top: 45px
+        padding-top: 5.5%
     }
     .container-boxes {
         padding-top: 60px

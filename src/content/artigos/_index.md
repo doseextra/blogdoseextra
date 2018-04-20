@@ -3,7 +3,7 @@ title: Artigos
 type: page
 image:
 excerpt:
-author: "Phalo"
+author: Regis
 description: Todas as postagens na categoria Revista do Dose Extra Blog
 
 ---

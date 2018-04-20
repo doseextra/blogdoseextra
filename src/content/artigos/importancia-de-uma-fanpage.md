@@ -12,8 +12,8 @@ authorEmail: contato@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, líder de projetos de mídias sociais, aficionado por Pokémon Stadium e Dragon Ball.
 type: post
 id: revista
-image: https://scontent.fpoa2-1.fna.fbcdn.net/v/t1.0-9/23167532_1844543759190394_8187681805184851958_n.jpg?oh=b5a0f2557cf08d94f649c42420231d8b&oe=5AD30849
-ImagePost: https://scontent.fpoa2-1.fna.fbcdn.net/v/t1.0-9/23172627_1844195235891913_5001575470648313365_n.png?oh=9ffd60164abbc1dfc21a443fd38d41ad&oe=5AC699EB
+image: https://i.imgur.com/kSDwiWO.jpg
+ImagePost: https://i.imgur.com/Si9HgAG.png
 date: 2017-12-04
 description: Entenda a importância de uma fanpage para sua empresa.
 categories:

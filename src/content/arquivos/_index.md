@@ -2,7 +2,7 @@
 title: "Todos os posts do Blog Dose Extra"
 type: page
 excerpt: Todos os posts do Blog
-author: "Phalo"
+author: Phalo
 id: arquivos
 description: Todos as postagens do Blog Dose Extra
 

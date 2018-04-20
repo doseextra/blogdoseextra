@@ -5,29 +5,47 @@
       <div class="row">
         {{ if $.Scratch.Get "category" }}
         <div class="col-md-6">
-          <h4><small>Postagens da categoria </small> {{ .Title }}</h4>
+          <h4><small>Postagens em: </small> {{ .Title }}</h4>
           <div class="margin-4"></div>
         </div>
+
+
         {{else}}
         <div class="col-md-12 centralizado">
-          <h4><small>Postagens na categoria </small> {{ .Title }}:</h4>
+          <h4><small>Postagens em:</small> {{ .Title }}</h4>
           <div class="margin-4"></div>
         </div>
         {{end}}
       <div id="ajax-posts">
 
         {{ range (.Paginator 10).Pages }}
+        {{ if isset .Params "author"}}
         <div class="box col-sm-6">
           <div class="post-box horizontal clearfix">
             <a href="{{ .Permalink }}" class="image-link arrow-icon"><img src="{{ .Params.image }}" alt="{{ .Title }}"></a>
             <div class="extra-info">
-              <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }} por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Params.authorName }}</a></p>
+              <p class="meta small">{{ .Date.Format "2 de Jan de 2006" }}
+                por <a href="{{ "/author/" | relLangURL }}{{ .Param "author" | urlize }}">{{ .Params.authorName }}</a>
+              </p>
               <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
               <p class="small">{{ .Params.Description }}</p>
             </div>
           </div>
         </div>
+
+        {{ else }}
+        <div class="col-sm-4">
+          <div class="clearfix">
+            <div class="extra-info">
+              <h6><a href="{{ .Permalink }}">{{ .Title }}</a></h6>
+            </div>
+          </div>
+        </div>
         {{ end }}
+
+        {{ end }}
+
+
       </div>
       <div class="margin-6"></div>
     </div>

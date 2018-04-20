@@ -25,7 +25,7 @@ tags:
   - tarantino
   - filmes de 1992
   - filme
-  - Cães de Aluguel
+  - Caes de Aluguel
 
 ---
 <span style="font-weight: 400;">Título original: “Reservoir Dogs”</span>

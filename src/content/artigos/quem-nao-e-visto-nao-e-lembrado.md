@@ -12,7 +12,7 @@ authorEmail: contato@doseextra.com
 authorDescription: Sócio Fundador da Dose Extra Multimídia, líder de projetos de mídias sociais, aficionado por Pokémon Stadium e Dragon Ball.
 type: post
 id: revista
-image: https://scontent.fpoa2-1.fna.fbcdn.net/v/t1.0-9/23244545_1845040802474023_4876677119750009495_n.jpg?oh=a9cec28f1d197e64515fba9be728e2dc&oe=5AD4E58D
+image: https://i.imgur.com/QEhYifM.jpg
 ImagePost: https://i.imgur.com/EkzArLE.jpg
 date: 2017-12-18
 description: Um site é a porta de entrada para o seu negócio na internet.

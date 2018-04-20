@@ -14,7 +14,7 @@ type: revista
 id: revista
 image: https://i.imgur.com/ogmw40y.jpg
 ImagePost: https://i.imgur.com/kJpY4t2.jpg
-date: 2017-10-07
+date: 2018-04-19
 description: Comece a desenvolver sites facilmente utilizando o Wordpress com as dicas do convidado Mateus Avila.
 categories:
   - Wordpress
@@ -27,11 +27,11 @@ tags:
   - web
   - cms
   - desenvolvimento de sites
-PodcastMp3: 
-PodcastOgg: 
+PodcastMp3:
+PodcastOgg:
 PodcastFeed:
-PodcastZip: 
-PodcastBytes: 
-PodcastDuration: 
+PodcastZip:
+PodcastBytes:
+PodcastDuration:
 draft: true
 ---

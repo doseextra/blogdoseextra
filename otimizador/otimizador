@@ -1,0 +1,44 @@
+#!/bin/bash
+# Este é um projeto de otimizador de HTML, JS e CSS para ser utilizado em trabalhos gerados com Hugo
+# Primeira versão experimental e sujeita a bugs
+# V 0.0.2
+#Requerimentos: npm, gulp e hugo
+echo "######### Otimizador de sites com o Gulp #############"
+echo "####################################################"
+PROJETO=blogdoseextra
+echo "######## Projeto $PROJETO ##########"
+SOURCE=$HOME/projetos/hugo/$PROJETO/src
+DESTINATION=$HOME/projetos/hugo/$PROJETO
+LOG=$HOME/projetos/hugo/$PROJETO/$PROJETO.log
+BEFORE=$HOME/projetos/hugo/$PROJETO/otimizador/before
+AFTER=$HOME/projetos/hugo/$PROJETO/otimizador/after
+TEMP=$HOME/projetos/hugo/$PROJETO/otimizador/temp
+
+##Gulp site
+GULPEN=$HOME/projetos/hugo/$PROJETO/otimizador/gulpfile.js
+
+echo "#### Construindo projeto: $SOURCE Apelido: $PROJETO #####"
+hugo --source="$SOURCE" --destination="$BEFORE" --logFile="$LOG"
+
+##gulp --gulpfile $GULPDIR --cwd
+gulp
+
+cp -r $BEFORE/img $TEMP
+cp -r $BEFORE/dist $TEMP
+
+
+
+
+### ROOT ###
+cp  $BEFORE/*.xml $TEMP/
+cp $BEFORE/.htaccess $TEMP
+
+rm -rf $DESTINATION/build
+
+cp -R $TEMP/ $DESTINATION/build
+
+echo "############### Limpando arquivos ###############"
+rm -r $BEFORE/*
+rm -rf $TEMP/*
+
+echo "############## Tudo pronto #######"
